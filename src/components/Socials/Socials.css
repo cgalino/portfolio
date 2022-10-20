@@ -1,0 +1,11 @@
+.socials-div a img{
+    width: 30px;
+}
+
+.socials-div.lg a img {
+    width: 42px;
+}
+
+.socials-div.sm a img {
+    width: 22px;
+}
