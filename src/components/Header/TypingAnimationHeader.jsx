@@ -4,13 +4,14 @@ import { TypeAnimation } from "react-type-animation";
 function TypingAnimationHeader() {
 
     const [hola, setHola] = useState(false);
-    const [nombre, setNombre] = useState(false);
 
     return (
         <div className="titles">
             <h2>
                 <TypeAnimation
                     sequence={[
+                        '',
+                        500,
                         '¡Hola!', // Types 'One'
                         1000, // Waits 1s
                         '¡Hola! Soy ', // Deletes 'One' and types
@@ -27,10 +28,7 @@ function TypingAnimationHeader() {
                     (hola) ?
                         <TypeAnimation
                             sequence={[
-                                'Carles Galino', // Deletes 'One' and types
-                                () => {
-                                    setNombre(true); // Place optional callbacks anywhere in the array
-                                }
+                                'Carles Galino'
                             ]}
                             wrapper="span"
                             cursor={true}

@@ -6,7 +6,9 @@ const separatorTypes = ['spikes', 'skewed', 'triangle', 'curved']
 function Separator(props) {
 
     return (
-        <section className={separatorTypes[props.type]}></section>
+        <section>
+            <div className={separatorTypes[props.type]}></div>
+        </section>
     )
 }
 

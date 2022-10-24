@@ -1,5 +1,6 @@
 import React from "react"
 import TypingAnimationHeader from "./TypingAnimationHeader"
+import Separator from "../Utils/Separator/Separator"
 import "./Header.css"
 
 
@@ -12,6 +13,7 @@ function Header() {
                     <div className="m-auto avatar">
                         <img src="./src/assets/laptop.png" alt="" />
                     </div>
+                    
                     <TypingAnimationHeader/>
                     {/* <div className="titles">
                         <h2>
@@ -22,8 +24,8 @@ function Header() {
                         </h1>
                     </div> */}
                     <div className="header-btns flex flex-row justify-center gap-4 py-5">
-                        <button className="border p-3 rounded-lg hover:bg-white hover:text-black">Conóceme</button>
-                        <button className="border p-3 rounded-lg hover:bg-white hover:text-black">Descargar CV</button>
+                        <button className="border p-2 rounded-lg hover:bg-white hover:text-black sm:btn-sm">Conóceme</button>
+                        <button className="border p-2 rounded-lg hover:bg-white hover:text-black">Descargar CV</button>
                     </div>
                 </div>
             </div>

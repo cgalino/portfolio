@@ -2,7 +2,7 @@
 
 .spikes {
     position: relative;
-    background: #2c3e50;
+    background: transparent;
     height: 50vh;
 }
 
@@ -16,7 +16,7 @@
     display: block;
     height: 15px;
     background-size: 15px 100%;
-    background-image: linear-gradient(135deg, #2c3e50 25%, transparent 25%), linear-gradient(225deg, #2c3e50 25%, transparent 25%);
+    background-image: linear-gradient(135deg, #eee 25%, transparent 25%), linear-gradient(225deg, #eee 25%, transparent 25%);
     background-position: 0 0;
 }
 
@@ -31,17 +31,17 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #2c3e50;
+    background: transparent;
     z-index: 0;
     transform: skewY(11deg);
-    transform-origin: top right;
+    transform-origin: bottom right;
 }
 
 /* TRIANGLE TYPE */
 
 .triangle {
     position: relative;
-    background: #2c3e50;
+    background: #eee;
     height: 50vh;
   }
   
@@ -53,7 +53,7 @@
     height: 0;
     border-style: solid;
     border-width: 98px 98px 0 98px;
-    border-color: #2c3e50 transparent transparent transparent;
+    border-color: #eee transparent transparent transparent;
     left: 50%;
     transform: translateX(-50%) translateY(100%);
   }
@@ -62,7 +62,7 @@
 
   .curved {
     position: relative;
-    background: #2c3e50;
+    background: #eee;
     height: 50vh;
     border-bottom-left-radius: 50% 28%;
     border-bottom-right-radius: 50% 28%;

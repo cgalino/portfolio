@@ -5,7 +5,7 @@ import Socials from "../Socials/Socials"
 function Footer() {
 
     return (
-        <footer className="h-auto">
+        <footer className="h-auto py-8">
             <div className="m-auto">
                 <Socials></Socials>
             </div>

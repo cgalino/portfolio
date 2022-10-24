@@ -1,9 +1,15 @@
-import './App.css'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Loader from './components/Utils/Loader/Loader'
 import { useEffect } from 'react'
 import { useState } from 'react'
+
+import './App.css'
+
+//Componentes estructurales
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+
+//Componentes de utilidad
+import Loader from './components/Utils/Loader/Loader'
+
 
 function App() {
 
@@ -20,17 +26,17 @@ function App() {
     (loaded)
       ?
       <>
-        <div className='min-h-screen h-full header-bg '>
-          <Header />
+        <div className='min-h-screen h-full'>
+          <Header/>
         </div>
-        <main>
-          {/* Conóceme */}
+        <main className='h-auto'>
+          
 
         </main>
         <Footer />
       </>
       :
-      <div className='flex h-screen header-bg'>
+      <div className='flex h-screen'>
         <Loader />
       </div>
   )
