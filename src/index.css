@@ -20,11 +20,7 @@
   --thumbBG: #9ca3af88;
 }
 
-body {
-  /* background-color: #151515; */
-  background: url('./assets/background.jpg');
-  background-size: cover;
-  
+body { 
   font-family: var(--poppins);
   user-select: none;
 }

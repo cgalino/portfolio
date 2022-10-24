@@ -6,7 +6,7 @@ import "./Header.css"
 function Header() {
 
     return (
-        <header className="h-screen">
+        <header className="h-full">
             <div className="m-auto">
                 <div className="flex flex-col gap-4">
                     <div className="m-auto avatar">
@@ -21,7 +21,7 @@ function Header() {
                             <span>&lt;</span><span className="secondary">FrontEndDeveloper</span> <span>/&gt;</span>
                         </h1>
                     </div> */}
-                    <div className="header-btns flex flex-row justify-center gap-4 pt-5">
+                    <div className="header-btns flex flex-row justify-center gap-4 py-5">
                         <button className="border p-3 rounded-lg hover:bg-white hover:text-black">Conóceme</button>
                         <button className="border p-3 rounded-lg hover:bg-white hover:text-black">Descargar CV</button>
                     </div>

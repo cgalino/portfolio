@@ -41,27 +41,9 @@ function TypingAnimationHeader() {
                 }
             </h2>
             <h1>
-                {(nombre)
-                    ?
-                    <span>
-                        <span>&lt;</span>
-                        <TypeAnimation
-                            sequence={[
-                                'FullSt', // Types 'One'
-                                1000, // Waits 1s
-                                'FrontendDeveloper'
-                            ]}
-                            wrapper="span"
-                            cursor={false}
-                            repeat={true}
-                            className={"secondary pr-2"}
-                            style={{ fontSize: '1em' }}
-                        />
-                        <span>/&gt;</span>
-                    </span>
-                    : null
-
-                }
+                <span>&lt;</span>
+                <span className="secondary">FrontEndDeveloper</span>
+                <span>/&gt;</span>
             </h1>
         </div >
     )

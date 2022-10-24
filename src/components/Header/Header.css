@@ -1,8 +1,6 @@
-header {
-    color: var(--tertiary-2)
-}
 
-header h1, header h2 {
+header h1,
+header h2 {
     font-size: clamp(1.5rem, 2.3vw, 3.2rem);
     color: var(--whitelight);
     padding: 10px;
