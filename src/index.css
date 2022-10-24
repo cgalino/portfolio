@@ -4,7 +4,7 @@
 
 :root {
   --primary: #222831;
-  --secondary: #1d9bf0;
+  --secondary: #169df7;
   --secondary-50: #1d9bf044;
   --tertiary: #9ca3af;
   --tertiary-2: #ced4db;
@@ -25,8 +25,16 @@ body {
   user-select: none;
 }
 
+.primary {
+  color: var(--primary)
+}
+
 .secondary {
   color: var(--secondary);
+}
+
+.tertiary{
+  color: var(--tertiary);
 }
 
 .jetBrains {

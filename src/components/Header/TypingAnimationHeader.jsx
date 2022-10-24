@@ -11,9 +11,9 @@ function TypingAnimationHeader() {
                 <TypeAnimation
                     sequence={[
                         '',
-                        500,
+                        200,
                         '¡Hola!', // Types 'One'
-                        1000, // Waits 1s
+                        600, // Waits 1s
                         '¡Hola! Soy ', // Deletes 'One' and types
                         () => {
                             setHola(true); // Place optional callbacks anywhere in the array
@@ -38,11 +38,6 @@ function TypingAnimationHeader() {
                         : null
                 }
             </h2>
-            <h1>
-                <span>&lt;</span>
-                <span className="secondary">FrontEndDeveloper</span>
-                <span>/&gt;</span>
-            </h1>
         </div >
     )
 }

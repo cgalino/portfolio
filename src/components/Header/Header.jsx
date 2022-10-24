@@ -13,16 +13,13 @@ function Header() {
                     <div className="m-auto avatar">
                         <img src="./src/assets/laptop.png" alt="" />
                     </div>
-                    
-                    <TypingAnimationHeader/>
-                    {/* <div className="titles">
-                        <h2>
-                            <TypingAnimationHeader />
-                        </h2>
-                        <h1>
-                            <span>&lt;</span><span className="secondary">FrontEndDeveloper</span> <span>/&gt;</span>
-                        </h1>
-                    </div> */}
+
+                    <TypingAnimationHeader />
+                    <h1>
+                        <span className="tertiary">&lt;</span>
+                        <span className="secondary">FrontendDeveloper </span>
+                        <span className="tertiary">/&gt;</span>
+                    </h1>
                     <div className="header-btns flex flex-row justify-center gap-4 py-5">
                         <button className="border p-2 rounded-lg hover:bg-white hover:text-black sm:btn-sm">Conóceme</button>
                         <button className="border p-2 rounded-lg hover:bg-white hover:text-black">Descargar CV</button>
