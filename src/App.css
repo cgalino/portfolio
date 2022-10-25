@@ -58,7 +58,9 @@ main {
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
+  background-color: var(--tertiary2);
+  border-radius: 15px;
 }
 
 .read-the-docs {

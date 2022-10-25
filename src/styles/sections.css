@@ -23,7 +23,7 @@ main {
     content: "";
     display: block;
     margin: auto 0;
-    width: 50vw;
+    width: 35vw;
     max-width: 800px;
     height: 1px;
     background-color: var(--tertiary);
