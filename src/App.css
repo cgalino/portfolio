@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 0px;
   text-align: center;
-  color: var(--tertiary-2);
+  color: var(--whitelight);
   min-height: 100vh;
 
   background-image: url('./assets/background4.jpg');
@@ -24,7 +24,7 @@ body {
 main {
   padding: 0 var(--sidePadding);
   width: 100%;
-  max-width: 1240px;
+  max-width: 1480px;
 }
 
 .logo {
@@ -55,12 +55,6 @@ main {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 1em;
-  background-color: var(--tertiary2);
-  border-radius: 15px;
 }
 
 .read-the-docs {
