@@ -29,10 +29,10 @@ function AboutMe() {
                         <p>
                             Durante mis años de experiencia he realizado numerosos proyectos de gran embergadura(algunos de ellos citados en <a className='secondary font-bold cursor-pointer'>Proyectos</a>) utilizando tecnologías muy diversas y colaborando en entornos de front y back.
                         </p>
-                        <p>
+                        {/* <p>
                             Lo que define el desarrollo del tiempo es la madurez y el progreso, la adaptabilidad, el notable crecimiento de mi conocimiento por el uso de nuevas tecnologias y herramientas utilizadas en el mundo
                             frontend y la puesta en marcha de las mismas en los últimos proyectos de la empresa
-                        </p>
+                        </p> */}
                     </div>
                 </div>
             </div>
