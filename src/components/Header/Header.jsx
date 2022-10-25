@@ -10,7 +10,7 @@ function Header() {
         <header className="h-full">
             <div className="m-auto">
                 <div className="flex flex-col gap-4">
-                    <div className="m-auto avatar">
+                    <div className="m-auto avatar duration-200 hover:scale-105">
                         <img src="./src/assets/laptop.png" alt="" />
                     </div>
 
@@ -22,7 +22,7 @@ function Header() {
                     </h1>
                     <div className="header-btns flex flex-row justify-center gap-4 py-5">
                         <button className="border p-2 rounded-lg hover:bg-white hover:text-black sm:btn-sm">Conóceme</button>
-                        <button className="border p-2 rounded-lg hover:bg-white hover:text-black">Descargar CV</button>
+                        <button className="border p-2 rounded-lg hover:bg-white hover:text-black sm:btn-sm">Descargar CV</button>
                     </div>
                 </div>
             </div>

@@ -20,7 +20,7 @@
   --thumbBG: #9ca3af88;
 }
 
-body { 
+body {
   font-family: var(--poppins);
   user-select: none;
 }
@@ -33,10 +33,90 @@ body {
   color: var(--secondary);
 }
 
-.tertiary{
+.tertiary {
   color: var(--tertiary);
 }
 
 .jetBrains {
   font-family: var(--jetBrains);
+}
+
+
+.showOn {
+  animation: show-section 2s forwards;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-name: show-section;
+}
+
+/* ----------------------- MEDIAS ------------------------- */
+
+@media screen and (max-width: 1092px) {
+  :root {
+    --sidePadding: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --sidePadding: 75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --sidePadding: 50px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  :root {
+    --sidePadding: 25px;
+  }
+}
+
+/* SCROLL BAR */
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+/* ---------------- KEYFRAMES ------------------- */
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show-section {
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

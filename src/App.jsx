@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useState } from 'react'
 
 import './App.css'
-import './styles/Sections.css'
+import './styles/sections.css'
 
 //Componentes estructurales
 import Header from './components/Header/Header'
@@ -29,16 +29,16 @@ function App() {
   return (
     (loaded)
       ?
-      <>
-        <div className='min-h-screen h-full'>
+      <div className='flex flex-col min-h-screen justify-between'>
+        <div className='h-full mb-10 space-y-10 overflow-hidden'>
           <Header/>
         </div>
-        <main className='py-6 px-4 sm:p-6 md:py-10 md:px-8'>
+        <main className=''>
           <AboutMe />
 
         </main>
         <Footer />
-      </>
+      </div>
       :
       <div className='flex h-screen'>
         <Loader />
