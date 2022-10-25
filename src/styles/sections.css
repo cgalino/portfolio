@@ -74,7 +74,7 @@ main {
 #about_foto img {
     background-color: var(--secondary-50);
     border-radius: 10px;
-    border: 2px solid var(--secondary-50);
+    border: 2px solid var(--tertiary);
     height: 100%;
     transform: rotate(10deg);
     transition: all .3s;
