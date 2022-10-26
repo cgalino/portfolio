@@ -7,7 +7,7 @@ function TypingAnimationHeader() {
 
     return (
         <div className="titles">
-            <h2>
+            <h1>
                 <TypeAnimation
                     sequence={[
                         '',
@@ -37,7 +37,7 @@ function TypingAnimationHeader() {
                         />
                         : null
                 }
-            </h2>
+            </h1>
         </div >
     )
 }

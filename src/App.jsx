@@ -30,9 +30,9 @@ function App() {
     (loaded)
       ?
       <div className='flex flex-col min-h-screen justify-between'>
-        <div className='h-full mb-10 space-y-10 overflow-hidden'>
-          <Header/>
-        </div>
+        {/* <div className='h-full mb-10 space-y-10 overflow-hidden'> */}
+        <Header />
+        {/* </div> */}
         <main className=''>
           <AboutMe />
 
