@@ -86,3 +86,19 @@ main {
 #about_foto img:hover {
     transform: rotate(0deg);
 }
+
+.border-mid-transparent {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.background-mid-light-transparent {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.about_tab_button.active{
+    background-color: var(--secondary);
+}
+
+.about_tab_button.nonactive:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,13 +1,13 @@
 import React from "react"
 import TypingAnimationHeader from "./TypingAnimationHeader"
-import Separator from "../Utils/Separator/Separator"
+import Logo from "./Logo"
 import "./Header.css"
 
 
 function Header() {
 
     return (
-        <header className="min-h-screen mb-10 space-y-10 overflow-hidden">
+        <header className="min-h-screen space-y-10 overflow-hidden lg:mb-10">
             <div>
                 <div id="about_titles" className="flex flex-col justify-center gap-8">
                     <TypingAnimationHeader />
@@ -21,9 +21,7 @@ function Header() {
                         <button className="border p-2 rounded-lg hover:bg-white hover:text-black sm:btn-sm">Descargar CV</button>
                     </div>
                 </div>
-                <div className="align-right avatar duration-200 hover:scale-105">
-                    <img src="./src/assets/laptop.png" alt="" />
-                </div>
+                <Logo />
             </div>
         </header>
 

@@ -1,0 +1,55 @@
+.avatar {
+    align-items: center;
+    bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    max-height: 500px;
+    position: absolute;
+    right: 12vw;
+    padding-bottom: 5vh;
+    width: 320px;
+    height: 320px;
+    transition: all 1s;
+}
+
+
+.avatar img:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+header .avatar>img {
+    width: 370px;
+    height: 370px;
+    max-width: none;
+    transition: all 1s;
+    padding-bottom: 10px;
+
+}
+
+@media (max-width:1250px) {
+
+    header .avatar>img, header .avatar {
+        transform: scale(0.90);
+        padding-bottom: 0vh;
+        right: 2vw;
+    }
+}
+
+
+@media (max-width:920px) {
+
+    header .avatar>img, header .avatar {
+        transform: scale(0.80);
+
+    }
+}
+
+
+@media (max-width:481px) {
+
+    header .avatar>img, header .avatar {
+        transform: scale(0.75);
+
+    }
+}

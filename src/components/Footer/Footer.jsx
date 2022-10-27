@@ -6,7 +6,7 @@ function Footer() {
 
     return (
         <footer className="h-auto fixed-bottom py-8">
-            <div className="m-auto">
+            <div className="m-auto pt-5">
                 <Socials></Socials>
             </div>
         </footer>

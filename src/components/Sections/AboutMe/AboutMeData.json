@@ -1,0 +1,30 @@
+[
+    {
+        "id": "quiensoy",
+        "fa_icon": "fa-child-reaching",
+        "tab_title": "Perfil",
+        "content_title": "¡Bienvenido!",
+        "content_body": "Mi nombre es <strong>Carles</strong> y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión."
+    },
+    {
+        "id": "formacion",
+        "fa_icon": "fa-user-graduate",
+        "tab_title": "Formación",
+        "content_title": "Formación",
+        "content_body": "Mi nombre es <strong>Carles</strong> y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión."
+    },
+    {
+        "id": "experiencia",
+        "fa_icon": "fa-code",
+        "tab_title": "Experiencia",
+        "content_title": "Experiencia",
+        "content_body": "Mi nombre es <strong>Carles</strong> y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión."
+    },
+    {
+        "id": "ambicion",
+        "fa_icon": "fa-flag-checkered",
+        "tab_title": "Ambición",
+        "content_title": "Inquietudes y ambición",
+        "content_body": "Mi nombre es <strong>Carles</strong> y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión."
+    }
+]
