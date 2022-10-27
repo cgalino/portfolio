@@ -22,7 +22,7 @@ function TypingAnimationHeader() {
                     wrapper="span"
                     cursor={false}
                     repeat={false}
-                    style={{ fontSize: '1em' }}
+                    style={{ fontSize: '1em'}}
                 />
                 {
                     (hola) ?

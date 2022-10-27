@@ -1,18 +1,23 @@
 
 import { React, useState, useEffect } from 'react';
 import AboutMeData from './AboutMeData.json';
+import { TypeAnimation } from 'react-type-animation';
 
 function AboutMeTab() {
 
-    const [activeTab, setActiveTab] = useState("quiensoy");
+
+    const [activeTab, setActiveTab] = useState(AboutMeData.filter(e => e.id == 'quiensoy')[0]);
+
+
     const tabItems = AboutMeData.map(d => (
-        <button tabid={d.id} className={`about_tab_button flex flex-col gap-5 p-6 md:w-40 md:pb-2 rounded-xl items-center
-         content-between border-mid-transparent background-mid-light-transparent h-100 duration-200 hover:scale-105
-          ${
-            (activeTab == d.id)
-                ? 'active'
-                : 'nonactive'    
-        }
+        <button key={d.id}
+            onClick={() => setActiveTab(d)}
+            className={`about_tab_button flex flex-col gap-5 p-6 md:w-40 md:pb-2 rounded-xl items-center
+                        content-between border-mid-transparent background-mid-light-transparent h-100 duration-200 hover:scale-105
+                        ${(activeTab.id == d.id)
+                    ? 'active'
+                    : 'nonactive'
+                }
         `}><i className={"fas fa-xl " + d.fa_icon} title={d.tab_title}></i> <span className="line-2 hidden md:block">{d.tab_title}</span></button>
     ));
 
@@ -22,22 +27,12 @@ function AboutMeTab() {
                 {tabItems}
             </div>
             <div id="about_card" className="card drop-shadow-lg duration-200 tab-content hover:scale-105">
-                <div tabpane="quiensoy" className="tab-pane flex flex-col content-between gap-6">
-                    <h3>¡Bienvenido!</h3>
-                    <p>
-                        Mi nombre es <strong>Carles</strong> y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión.
-                    </p>
-                    <p>
-                        Estudié un Grado superior de DAM en Educem y posteriormente entré a trabajar como desarrollador web en Promo-soft (Empresa en la cual trabajo desde entonces).
-                    </p>
-                    <p>
-                        Durante mis años de experiencia he realizado numerosos proyectos de gran embergadura(algunos de ellos citados en <a className='secondary font-bold cursor-pointer'>Proyectos</a>) utilizando tecnologías muy diversas y colaborando en entornos de front y back.
-                    </p>
+                <div tabpane={activeTab.id} className="tab-pane flex flex-col content-between gap-6">
+                    <h3>{activeTab.content_title}</h3>
+                    <div id="about_card_desc">
+                        {activeTab.content_body}
+                    </div>
                 </div>
-                {/* <p>
-                            Lo que define el desarrollo del tiempo es la madurez y el progreso, la adaptabilidad, el notable crecimiento de mi conocimiento por el uso de nuevas tecnologias y herramientas utilizadas en el mundo
-                            frontend y la puesta en marcha de las mismas en los últimos proyectos de la empresa
-                        </p> */}
             </div>
         </div>
 

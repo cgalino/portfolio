@@ -4,7 +4,7 @@
         "fa_icon": "fa-child-reaching",
         "tab_title": "Perfil",
         "content_title": "¡Bienvenido!",
-        "content_body": "Mi nombre es <strong>Carles</strong> y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión."
+        "content_body": "Mi nombre es Carles y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión."
     },
     {
         "id": "formacion",
@@ -25,6 +25,6 @@
         "fa_icon": "fa-flag-checkered",
         "tab_title": "Ambición",
         "content_title": "Inquietudes y ambición",
-        "content_body": "Mi nombre es <strong>Carles</strong> y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión."
+        "content_body": "Lo que define el desarrollo del tiempo es la madurez y el progreso, la adaptabilidad, el notable crecimiento de mi conocimiento por el uso de nuevas tecnologias y herramientas utilizadas en el mundo frontend y la puesta en marcha de las mismas en los últimos proyectos de la empresa"
     }
 ]
