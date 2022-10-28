@@ -17,7 +17,7 @@ echo > .nojekyll
 
 git init
 git checkout -B main
-git add -A
+git add -A -f
 git commit -m 'deploy'
 
 git push -f git@github.com:cgalino/portfolio.git main:gh-pages
