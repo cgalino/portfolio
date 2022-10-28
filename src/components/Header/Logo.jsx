@@ -6,7 +6,7 @@ function Logo() {
 
     return (
         <div className="avatar flex flex-col content-center xs:w-screen">
-            <img src="./src/assets/yoraro.png" alt="" />
+            <img src="public/img/yoraro.png" alt="" />
             <Socials />
         </div>
 
