@@ -30,9 +30,9 @@ header .avatar>img {
 @media (max-width:1250px) {
 
     header .avatar>img, header .avatar {
-        transform: scale(0.90);
+        transform: scale(0.87);
         padding-bottom: 0vh;
-        right: 2vw;
+        right: calc(15vw);
     }
 }
 
@@ -40,16 +40,36 @@ header .avatar>img {
 @media (max-width:920px) {
 
     header .avatar>img, header .avatar {
-        transform: scale(0.80);
+        transform: scale(0.76);
+        right: calc(10vw);
+    }
+}
+
+@media (max-width:720px) {
+
+    header .avatar>img, header .avatar {
+        transform: scale(0.73);
+        right: calc(7.5vw);
 
     }
 }
 
 
+
 @media (max-width:481px) {
 
     header .avatar>img, header .avatar {
-        transform: scale(0.75);
+        transform: scale(0.70);
+        right: calc(5vw);
+
+    }
+}
+
+@media (max-width:380px) {
+
+    header .avatar>img, header .avatar {
+        transform: scale(0.70);
+        right: calc(-2vw);
 
     }
 }
