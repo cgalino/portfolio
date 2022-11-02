@@ -29,7 +29,7 @@ function App() {
   return (
     (loaded)
       ?
-      <div id="page" className='flex flex-col h-full justify-between'>
+      <div id="page" className='flex flex-col justify-between'>
         {/* <div className='h-full mb-10 space-y-10 overflow-hidden'> */}
         <Header />
         {/* </div> */}
