@@ -13,7 +13,7 @@
   --poppins: 'Poppins', sans-serif;
   --jetBrains: 'JetBrains Mono', monospace;
 
-  --sidePadding: 150px;
+  --sidePadding: 2vw;
   --headerHeight: 100vh;
 
   --scrollbarBG: #1c1c1c;
@@ -23,6 +23,10 @@
 body {
   font-family: var(--poppins);
   user-select: none;
+}
+
+p{
+  user-select: text;
 }
 
 .primary {
@@ -80,7 +84,7 @@ body {
 
 @media screen and (max-width: 540px) {
   :root {
-    --sidePadding: 25px;
+    --sidePadding: 15px;
   }
 }
 

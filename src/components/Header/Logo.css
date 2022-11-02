@@ -64,12 +64,3 @@ header .avatar>img {
 
     }
 }
-
-@media (max-width:380px) {
-
-    header .avatar>img, header .avatar {
-        transform: scale(0.70);
-        right: calc(-2vw);
-
-    }
-}

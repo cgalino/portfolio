@@ -4,27 +4,27 @@
         "fa_icon": "fa-child-reaching",
         "tab_title": "Perfil",
         "content_title": "¡Bienvenido!",
-        "content_body": "Mi nombre es Carles y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión."
+        "content_body": "<p>Mi nombre es <strong>Carles</strong>, soy de Barcelona y actualmente trabajo en Promo-soft como frontend dev.</p><p> Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión.</p>"
     },
     {
         "id": "formacion",
         "fa_icon": "fa-user-graduate",
         "tab_title": "Formación",
         "content_title": "Formación",
-        "content_body": "Mi nombre es <strong>Carles</strong> y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión."
+        "content_body": "<p>Empecé estudiando un gradio medio de Sistemas microinformáticos y redes<strong>(SMX)</strong>.</p><p> Posteriormente, cursé el grado superior en desarrollo de aplicaciones multiplataforma<strong>(DAM)</strong>.</p><p> He adquirido la mayor parte de mi conocimiento de manera <strong>autodidacta</strong> mientras trabajaba como desarrollador.</p><p><i> También realicé un curso en la <strong>UAB</strong> de FrontEnd Developer con VUE</i></p>"
     },
     {
         "id": "experiencia",
         "fa_icon": "fa-code",
         "tab_title": "Experiencia",
         "content_title": "Experiencia",
-        "content_body": "Mi nombre es <strong>Carles</strong> y soy de Barcelona. Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión."
+        "content_body": "<p>Durante mis 6 años de experiencia en <strong>Promo-Soft</strong> he llevado a cabo numerosos proyectos front de manera autosuficiente.</p><p>He aprovechado para crecer, nutrirme de conocimiento y madurar en mi labor como frontend dev.</p>"
     },
     {
         "id": "ambicion",
         "fa_icon": "fa-flag-checkered",
         "tab_title": "Ambición",
         "content_title": "Inquietudes y ambición",
-        "content_body": "Lo que define el desarrollo del tiempo es la madurez y el progreso, la adaptabilidad, el notable crecimiento de mi conocimiento por el uso de nuevas tecnologias y herramientas utilizadas en el mundo frontend y la puesta en marcha de las mismas en los últimos proyectos de la empresa"
+        "content_body": "<p>En cuanto a ambición y perspectiva de futuro me caracteriza la superación personal a nivel técnico.</p><p>El formar parte de proyectos innovadores que me permitan profundizar y descubrir más sobre mi pasión.</p>"
     }
 ]
