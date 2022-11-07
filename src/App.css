@@ -10,6 +10,10 @@
 html {
   scroll-behavior: smooth;
   height: -webkit-fill-available;
+
+  /* mobile viewport bug fix */
+  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -20,9 +24,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 
-  min-height: 100vh;
   /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
+  height: 100%;
+  min-height: 100%;
 
   /* background-image: url('./assets/background4.jpg'); */
   background-image: linear-gradient(to left bottom,
