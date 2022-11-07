@@ -18,6 +18,8 @@
 
   --scrollbarBG: #1c1c1c;
   --thumbBG: #9ca3af88;
+
+  background-attachment: fixed;
 }
 
 body {
