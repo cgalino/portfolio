@@ -42,9 +42,13 @@ body {
       #12223b,
       #121e34,
       #121a2d);
-  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 main,
