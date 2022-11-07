@@ -1,7 +1,6 @@
 
 import { React, useState, useEffect } from 'react';
 import AboutMeData from './AboutMeData.json';
-import { TypeAnimation } from 'react-type-animation';
 
 function AboutMeTab() {
 
@@ -13,7 +12,7 @@ function AboutMeTab() {
         <button key={d.id}
             onClick={() => setActiveTab(d)}
             className={`about_tab_button flex flex-col gap-5 p-6 md:w-40 md:pb-2 rounded-xl items-center
-                        content-between border-mid-transparent background-mid-light-transparent h-100 duration-200 hover:scale-105
+                        content-between border-mid-transparent bg-mid-light-transparent h-100 duration-200 hover:scale-105
                         ${(activeTab.id == d.id)
                     ? 'active'
                     : 'nonactive'

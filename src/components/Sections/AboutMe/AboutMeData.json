@@ -11,7 +11,7 @@
         "fa_icon": "fa-user-graduate",
         "tab_title": "Formación",
         "content_title": "Formación",
-        "content_body": "<p>Empecé estudiando un gradio medio de Sistemas microinformáticos y redes<strong>(SMX)</strong>.</p><p> Posteriormente, cursé el grado superior en desarrollo de aplicaciones multiplataforma<strong>(DAM)</strong>.</p><p> He adquirido la mayor parte de mi conocimiento de manera <strong>autodidacta</strong> mientras trabajaba como desarrollador.</p><p><i> También realicé un curso en la <strong>UAB</strong> de FrontEnd Developer con VUE</i></p>"
+        "content_body": "<p>Empecé estudiando un CFGM de Sistemas microinformáticos y redes<strong>(SMX)</strong>.</p><p> Posteriormente, cursé el CFGS en desarrollo de aplicaciones multiplataforma<strong>(DAM)</strong>.</p><p> He adquirido la mayor parte de mi conocimiento de manera <strong>autodidacta</strong> mientras trabajaba como desarrollador.</p><p><i> También realicé un curso en la <strong>UAB</strong> de FrontEnd Developer con VUE</i></p>"
     },
     {
         "id": "experiencia",
@@ -25,6 +25,6 @@
         "fa_icon": "fa-flag-checkered",
         "tab_title": "Ambición",
         "content_title": "Inquietudes y ambición",
-        "content_body": "<p>En cuanto a ambición y perspectiva de futuro me caracteriza la superación personal a nivel técnico.</p><p>El formar parte de proyectos innovadores que me permitan profundizar y descubrir más sobre mi pasión.</p>"
+        "content_body": "<p>En cuanto a ambición y perspectiva de futuro me caracteriza la superación personal, el compartir conocimiento y construir junto al equipo proyectos ilusionantes</p><p>El formar parte de proyectos innovadores que me permitan profundizar y descubrir más sobre mi pasión.</p>"
     }
 ]

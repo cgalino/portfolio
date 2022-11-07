@@ -8,39 +8,6 @@ main {
     transform: translateY(5rem);
 }
 
-.title {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    font-family: var(--jetBrains);
-    margin-bottom: 3rem;
-    padding-top: 3rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.title:after {
-    content: "";
-    display: block;
-    margin: auto 0;
-    width: 25vw;
-    max-width: 800px;
-    height: 1px;
-    background-color: var(--tertiary);
-}
-
-.title h2 {
-    display: flex;
-    margin: 0 1rem 0 1rem;
-    color: #fff;
-    white-space: nowrap;
-}
-
-.title span {
-    font-weight: 700;
-    font-style: italic;
-}
-
 .card {
     background: rgba(255, 255, 255, 0.1);
     padding: 2rem;
@@ -64,8 +31,7 @@ main {
 }
 
 #about_foto {
-    /* background-color: var(--secondary); */
-    background-color: rgba(100, 100, 255, 0.4);
+    background-color: var(--secondary);
     border-radius: 25px;
     height: 250px;
     position: relative;
@@ -87,15 +53,6 @@ main {
 #about_foto img:hover {
     transform: rotate(0deg);
 }
-
-.border-mid-transparent {
-    border: 2px solid rgba(255, 255, 255, 0.1);
-}
-
-.background-mid-light-transparent {
-    background-color: rgba(255, 255, 255, 0.02);
-}
-
 .about_tab_button.active{
     background-color: var(--secondary);
 }

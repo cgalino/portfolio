@@ -1,5 +1,6 @@
 import React from "react"
 import TypingAnimationHeader from "./TypingAnimationHeader"
+import Button from "../Utils/Button/Button"
 import Logo from "./Logo"
 import "./Header.css"
 
@@ -17,8 +18,8 @@ function Header() {
                         <span className="tertiary">/&gt;</span>
                     </h2>
                     <div className="header-btns flex flex-row justify-start gap-4 py-10">
-                        <button className="border p-2 rounded-lg hover:bg-white hover:text-black sm:btn-sm">Conóceme</button>
-                        <button className="border p-2 rounded-lg hover:bg-white hover:text-black sm:btn-sm">Descargar CV</button>
+                        <Button style="transp" title="Conóceme" href="#about"></Button>
+                        <Button style="white"  title="Descargar CV" href="cv.pdf"></Button>
                     </div>
                 </div>
                 <Logo />
