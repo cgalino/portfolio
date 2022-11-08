@@ -11,8 +11,6 @@ html {
   scroll-behavior: smooth;
   height: -webkit-fill-available;
 
-  /* mobile viewport bug fix */
-  height: 100%;
   min-height: 100%;
 }
 
@@ -24,24 +22,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 
-  /* mobile viewport bug fix */
-  height: 100%;
   min-height: 100%;
-
-  background-color: linear-gradient(to left bottom,
-      #6f2c4d,
-      #612d55,
-      #502f59,
-      #3d315b,
-      #293259,
-      #203054,
-      #172e4f,
-      #0e2b49,
-      #112742,
-      #12223b,
-      #121e34,
-      #121a2d);
-  ;
 
   /* background-image: url('./assets/background4.jpg'); */
   background-image: linear-gradient(to left bottom,
@@ -58,12 +39,14 @@ body {
       #121e34,
       #121a2d);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat-x;
+    background-size: auto 100%;
   background-attachment: fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  /* background-size: cover; */
 }
 
 main,
