@@ -4,7 +4,7 @@
         "fa_icon": "fa-child-reaching",
         "tab_title": "Perfil",
         "content_title": "¡Bienvenido!",
-        "content_body": "<p>Mi nombre es <strong>Carles</strong>, soy de Barcelona y actualmente trabajo en Promo-soft como frontend dev.</p><p> Hace más de un 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión.</p>"
+        "content_body": "<p>Mi nombre es <strong>Carles</strong>, soy de Barcelona y actualmente trabajo en Promo-soft como frontend dev.</p><p> Hace más de 5 años que me dedico al desarrollo de proyectos frontend, materia que poco a poco se ha convertido en mi pasión.</p>"
     },
     {
         "id": "formacion",

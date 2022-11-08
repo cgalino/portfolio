@@ -1,66 +1,36 @@
-.avatar {
-    align-items: center;
-    bottom: 5vh;
-    display: flex;
-    justify-content: center;
-    max-height: 500px;
-    position: absolute;
-    right: 12vw;
-    padding-bottom: 5vh;
-    width: 320px;
-    height: 320px;
+#avatar {
     transition: all 1s;
 }
 
 
-.avatar img:hover {
+#avatar:hover {
     filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-
-header .avatar>img {
-    width: 370px;
-    height: 370px;
-    max-width: none;
-    transition: all 1s;
-    padding-bottom: 10px;
-
 }
 
 @media (max-width:1250px) {
 
-    header .avatar>img, header .avatar {
+    #avatar {
         transform: scale(0.87);
         padding-bottom: 0vh;
-        right: calc(15vw);
     }
 }
 
-
 @media (max-width:920px) {
 
-    header .avatar>img, header .avatar {
+    #avatar {
         transform: scale(0.76);
-        right: calc(10vw);
     }
 }
 
 @media (max-width:720px) {
-
-    header .avatar>img, header .avatar {
+    #avatar {
         transform: scale(0.73);
-        right: calc(7.5vw);
-
     }
 }
 
-
-
 @media (max-width:481px) {
 
-    header .avatar>img, header .avatar {
+    #avatar {
         transform: scale(0.70);
-        right: calc(5vw);
-
     }
 }

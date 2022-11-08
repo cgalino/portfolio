@@ -9,8 +9,8 @@ function Header() {
 
     return (
         <header className="min-h-screen space-y-10 overflow-hidden lg:mb-10">
-            <div>
-                <div id="about_titles" className="flex flex-col justify-center gap-8">
+            <div className="flex flex-col justify-center items-center">
+                <div id="about_titles" className="flex flex-col lg:place-self-start content-center justify-center pt-10 gap-8">
                     <TypingAnimationHeader />
                     <h2>
                         <span className="tertiary">&lt;</span>
@@ -19,7 +19,7 @@ function Header() {
                     </h2>
                     <div className="header-btns flex flex-row justify-start gap-4 py-10">
                         <Button style="transp" title="Conóceme" href="#about"></Button>
-                        <Button style="white"  title="Descargar CV" href="cv.pdf"></Button>
+                        <Button style="white" title="Descargar CV" href="cv.pdf"></Button>
                     </div>
                 </div>
                 <Logo />
