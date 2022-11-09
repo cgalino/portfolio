@@ -11,14 +11,14 @@ function AboutMe() {
         <section id="about" className="mb-20 space-x-20 overflow-hidden sm:mb-32 sm:space-y-32 md:mb-40 md:space-y-40">
             <div ref={aboutRef} className="about">
                 <SectionTitle title="¡Conóceme!" number="1" />
-                <div id="about_main" className="flex flex-row items-center gap-20 justify-center flex-wrap-reverse p-5">
+                <div id="about_main" className="flex flex-row items-center gap-20 justify-center flex-wrap-reverse py-5">
                     <div id="about_sidebar" className='flex flex-col gap-16'>
                         <div id="about_foto">
                             <img src="./img/yo.jpg" />
                         </div>
                         <AboutLinks />
                     </div>
-                    <div className='xl:w-2/3 lg:w-full md:w-full sm:w-full '>
+                    <div className='w-full xl:w-2/3'>
                         <AboutMeTab />
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 
 import { React, useState, useEffect } from 'react';
+import './AboutMeTabs.css';
 import AboutMeData from './AboutMeData.json';
 
 function AboutMeTab() {
@@ -22,10 +23,10 @@ function AboutMeTab() {
 
     return (
         <div className="flex flex-col content-center gap-8 tab">
-            <div id="about_tabdef" className='flex flex-row justify-center w-100 items-center gap-2 md:gap-4 xl:gap-6'>
+            <div id="about_tabdef" className='flex flex-row flex-wrap justify-center w-100 items-center gap-2 md:gap-4 xl:gap-6'>
                 {tabItems}
             </div>
-            <div id="about_card" className="card drop-shadow-lg duration-200 tab-content">
+            <div id="about_card" className="card drop-shadow-lg duration-200 tab-content lg:minh72">
                 <div tabpane={activeTab.id} className="tab-pane flex flex-col content-between gap-6">
                     <h3>{activeTab.content_title}</h3>
                     <div id="about_card_desc" className='flex flex-col content-between gap-3' dangerouslySetInnerHTML={{ __html: activeTab.content_body }} >

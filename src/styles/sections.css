@@ -53,10 +53,18 @@ main {
 #about_foto img:hover {
     transform: rotate(0deg);
 }
-.about_tab_button.active{
+
+.about_tab_button.active {
     background-color: var(--secondary);
 }
 
-.about_tab_button.nonactive:hover{
+.about_tab_button.nonactive:hover {
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (min-width: 768px) {
+    #about_card {
+        min-height: 18rem;
+    }
+
 }

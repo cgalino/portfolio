@@ -8,16 +8,16 @@ import "./Header.css"
 function Header() {
 
     return (
-        <header className="min-h-screen space-y-10 overflow-hidden lg:mb-10">
-            <div className="flex flex-col justify-center items-center">
-                <div id="about_titles" className="flex flex-col lg:place-self-start content-center justify-center pt-10 gap-8">
+        <header className="min-h-screen m-auto space-y-10 w-screen overflow-hidden lg:mt-24">
+            <div className="grid justify-center items-center">
+                <div className="flex flex-col w-full text-left pt-8 lg:place-self-start content-center justify-center gap-8">
                     <TypingAnimationHeader />
                     <h2>
                         <span className="tertiary">&lt;</span>
                         <span className="secondary">FrontendDeveloper </span>
                         <span className="tertiary">/&gt;</span>
                     </h2>
-                    <div className="header-btns flex flex-row justify-start gap-4 py-10">
+                    <div className="header-btns flex flex-row lg:justify-start justify-center gap-4 pt-10">
                         <Button style="transp" title="Conóceme" href="#about"></Button>
                         <Button style="white" title="Descargar CV" href="cv.pdf"></Button>
                     </div>
