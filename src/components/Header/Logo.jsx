@@ -5,15 +5,19 @@ import { useEffect, useState } from 'react';
 
 function Logo() {
 
-    const [socialsSize, setSocialsSize] = useState('md')
-
-    window.addEventListener("resize", () => {
+    const resizeHandler = () => {
         if (window.innerWidth > 720) {
             if (socialsSize == 'sm') setSocialsSize('md')
         } else if (socialsSize == 'md') {
             setSocialsSize('sm')
         }
-    });
+    }
+
+    const [socialsSize, setSocialsSize] = useState('md')
+
+    resizeHandler();
+
+    window.addEventListener("resize", resizeHandler);
 
     return (
         <div id="logo__div" className="place-self-end grid w-full grid-row m-auto sm:place-items-end">
