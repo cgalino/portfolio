@@ -8,9 +8,9 @@ import "./Header.css"
 function Header() {
 
     return (
-        <header className="min-h-screen space-y-10 w-screen overflow-hidden mt-24">
+        <header className="min-h-screen space-y-2 w-screen overflow-hidden mt-24">
             <div className="grid justify-center items-center gap-20">
-                <div className="flex flex-col w-full text-left pt-8 lg:place-self-start content-center justify-center gap-8">
+                <div id="header_titles_div" className="flex flex-col w-full text-left pt-8 place-self-start gap-8">
                     <TypingAnimationHeader />
                     <h2>
                         <span className="tertiary">&lt;</span>
