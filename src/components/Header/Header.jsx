@@ -8,7 +8,7 @@ import "./Header.css"
 function Header() {
 
     return (
-        <header className="min-h-screen m-auto space-y-10 w-screen overflow-hidden mt-24">
+        <header className="min-h-screen space-y-10 w-screen overflow-hidden mt-24">
             <div className="grid justify-center items-center gap-20">
                 <div className="flex flex-col w-full text-left pt-8 lg:place-self-start content-center justify-center gap-8">
                     <TypingAnimationHeader />
