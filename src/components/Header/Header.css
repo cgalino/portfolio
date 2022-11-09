@@ -10,8 +10,18 @@ header .grid {
     min-width: 70vw;
 }
 
-#header_titles_div{
+#header_titles_div {
     min-width: 70vw;
+}
+
+@media (max-width:720px) {
+    header .grid {
+        min-width: 95vw;
+    }
+
+    #header_titles_div {
+        min-width: 95vw;
+    }
 }
 
 header h1,
