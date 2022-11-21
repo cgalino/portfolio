@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer'
 //Secciones de la página
 import AboutMe from './components/Sections/AboutMe/AboutMe'
 import SoftSkills from './components/Sections/SoftSkills/SoftSkills'
+import HardSkills from './components/Sections/HardSkills/HardSkills'
 
 //Componentes de utilidad
 import Loader from './components/Utils/Loader/Loader'
@@ -37,6 +38,7 @@ function App() {
         <main className=''>
           <AboutMe />
           <SoftSkills />
+          <HardSkills />
         </main>
         <Footer />
       </div>
