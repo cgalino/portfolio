@@ -10,7 +10,7 @@ function Header() {
     return (
         <header className="min-h-screen space-y-2 w-screen m-auto overflow-hidden mt-4">
             <div className="grid justify-center items-center gap-20">
-                <div id="header_titles_div" className="flex flex-col w-full text-left pt-8 place-self-start gap-8">
+                <div id="header_titles_div" className="flex flex-col w-full text-left pt-8 place-self-start lg:gap-16 gap-6">
                     <TypingAnimationHeader />
                     <h2>
                         <span className="tertiary">&lt;</span>

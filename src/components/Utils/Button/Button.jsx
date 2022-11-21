@@ -8,7 +8,7 @@ const Button = (props) => {
         case 'white': st = 'bg-white text-black'
     }
     return (
-        <button className={"rounded-xl border p-2 rounded-lg sm:btn-sm duration-200 hover:scale-105 " + st} ><a href={props.href}>{props.title}</a></button>
+        <a className={"rounded-xl border p-2 rounded-lg sm:btn-sm duration-200 hover:scale-105 " + st} href={props.href} >{props.title}</a>
     )
 }
 
