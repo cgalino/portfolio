@@ -27,11 +27,13 @@ body {
   user-select: none;
 }
 
-p{
+p {
   user-select: text;
 }
 
-* { -webkit-tap-highlight-color: rgba(0,0,0,0); }
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 .primary {
   color: var(--primary)
