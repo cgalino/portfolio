@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
-import HardSkillsButton from '../HardSkillsButtons';
-import data from '../HardSkillsData';
+import HardSkillsButton from './HardSkillsButtons';
+import data from './HardSkillsData';
 
-const MenuDesktop = ({ view, setView }) => {
+const MenuHardSkills = ({ view, setView }) => {
     const bar = useRef(null);
 
     useEffect(() => {
@@ -34,4 +34,4 @@ const setBar = (view, bar) => {
     }
 };
 
-export default MenuDesktop;
+export default MenuHardSkills;

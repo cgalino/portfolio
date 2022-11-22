@@ -1,11 +1,11 @@
-import data from '../HardSkillsData';
+import data from './HardSkillsData';
 
-const HardSkillsCardDesktop = ({ skill }) => {
-	
+const HardSkillsCard = ({ skill }) => {
+
 	let d = data.filter(e => e.id == skill)[0];
 
 	return (
-		<div className="card drop-shadow-lg duration-200 lg:minh72">
+		<div className="card drop-shadow-lg lg:minh72">
 			<div className="flex flex-col content-between gap-6">
 				<h3>{d.title}</h3>
 				<p>{d.desc}</p>
@@ -17,7 +17,7 @@ const HardSkillsCardDesktop = ({ skill }) => {
 								src={el.img}
 								title={el.text}
 								alt={el.text}
-								className={"w-12 w-full"}
+								className={"skills__img"}
 							/>
 						);
 					})}
@@ -27,4 +27,4 @@ const HardSkillsCardDesktop = ({ skill }) => {
 	);
 };
 
-export default HardSkillsCardDesktop;
+export default HardSkillsCard;
