@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer'
 import AboutMe from './components/Sections/AboutMe/AboutMe'
 import SoftSkills from './components/Sections/SoftSkills/SoftSkills'
 import HardSkills from './components/Sections/HardSkills/HardSkills'
+import Projects from './components/Sections/Projects/Projects'
 
 //Componentes de utilidad
 import Loader from './components/Utils/Loader/Loader'
@@ -39,6 +40,7 @@ function App() {
           <AboutMe />
           <SoftSkills />
           <HardSkills />
+          <Projects />
         </main>
         <Footer />
       </div>

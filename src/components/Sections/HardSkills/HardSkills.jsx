@@ -11,7 +11,7 @@ const Skills = () => {
 	const [view, setView] = useState(1);
 
 	return (
-		<section id="HardSkills" className="mb-20 space-x-20 overflow-hidden sm:mb-32 sm:space-y-32 md:mb-40 md:space-y-40">
+		<section id="HardSkills" className=" mb-20 space-x-20 overflow-hidden sm:mb-32 sm:space-y-32 md:mb-40 md:space-y-40">
 			<div className="HardSkills" ref={skillsRef}>
 				<Title title="Conocimiento" number="3" />
 				<div id="hardskills_main" className="flex flex-row items-start gap-10 md:gap-20 justify-center flex-wrap py-5">
