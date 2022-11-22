@@ -1,7 +1,7 @@
 
 import { React, useState, useEffect } from 'react';
 import './AboutMeTabs.css';
-import AboutMeData from './AboutMeData.json';
+import AboutMeData from '../../../data/AboutMeData.json';
 
 function AboutMeTab() {
 

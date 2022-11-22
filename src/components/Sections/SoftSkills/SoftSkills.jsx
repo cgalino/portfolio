@@ -1,6 +1,6 @@
 import showObserver from '../../Hooks/showObserver';
 import SectionTitle from '../../Utils/SectionTitle/SectionTitle';
-import SoftSkillsData from "./SoftSkillsData.json";
+import SoftSkillsData from "../../../data/SoftSkillsData.json";
 
 function SoftSkills() {
 

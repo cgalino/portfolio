@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import HardSkillsButton from './HardSkillsButtons';
-import data from './HardSkillsData';
+import data from '../../../data/HardSkillsData';
 
 const MenuHardSkills = ({ view, setView }) => {
     const bar = useRef(null);

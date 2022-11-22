@@ -1,4 +1,4 @@
-import data from './HardSkillsData';
+import data from '../../../data/HardSkillsData';
 
 const HardSkillsCard = ({ skill }) => {
 
