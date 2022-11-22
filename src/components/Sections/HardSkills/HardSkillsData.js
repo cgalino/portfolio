@@ -62,7 +62,6 @@ const data = [{
 		{ img: imgs.git, text: 'Git' },
 		{ img: imgs.vite, text: 'Vite' },
 		{ img: imgs.npm, text: 'NPM' },
-		{ img: imgs.vscode, text: 'vsCode' },
 		{ img: imgs.jenkins, text: 'Jenkins' },
 	],
 },
