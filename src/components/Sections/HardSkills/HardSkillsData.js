@@ -7,7 +7,7 @@ const imgs = {
 	"react": 'img/hardSkills/FRONTEND/react.svg',
 	"vue": 'img/hardSkills/FRONTEND/vue.svg',
 	"tailwind": 'img/hardSkills/FRONTEND/tailwind.svg',
-	"jquery": 'img/hardSkills/FRONTEND/jquery.png',
+	"jquery": 'img/hardSkills/FRONTEND/jquery.webp',
 	"material": 'img/hardSkills/FRONTEND/material.svg',
 	"bootstrap": 'img/hardSkills/FRONTEND/bootstrap.png',
 	"node": 'img/hardSkills/BACKEND/node.svg',
@@ -16,7 +16,7 @@ const imgs = {
 	"java": 'img/hardSkills/BACKEND/java.svg',
 	"vite": 'img/hardSkills/TOOLS/vite.png',
 	"git": 'img/hardSkills/TOOLS/git.svg',
-	"npm": 'img/hardSkills/TOOLS/npm.png',
+	"npm": 'img/hardSkills/TOOLS/npm.webp',
 	"vscode": 'img/hardSkills/TOOLS/vscode.png',
 	"jenkins": 'img/hardSkills/TOOLS/jenkins.png',
 	"db2": 'img/hardSkills/DATABASE/db2.svg',
@@ -31,7 +31,7 @@ const data = [{
 	id: 1,
 	name: 'FRONTEND',
 	title: 'Frontend',
-	desc: 'Ambito con el que cuento con mas experiencia y conocimiento, programo a diario y utilizo distintos frameworks y librerias dependiendo de la necesidad y el proyecto',
+	desc: 'Ámbito con el que cuento con mas experiencia y conocimiento, programo a diario y utilizo distintos frameworks y librerias dependiendo de la necesidad y el proyecto',
 	images: [
 		{ img: imgs.html, text: 'HTML' },
 		{ img: imgs.css, text: 'CSS' },
@@ -40,7 +40,6 @@ const data = [{
 		{ img: imgs.tailwind, text: 'Tailwind' },
 		{ img: imgs.bootstrap, text: 'Bootstrap' },
 		{ img: imgs.jquery, text: 'Jquery' },
-		{ img: imgs.material, text: 'Material' },
 	]
 }, {
 	id: 2,
@@ -69,7 +68,7 @@ const data = [{
 },
 {
 	id: 4,
-	name: 'DATABASES',
+	name: 'DATABASE',
 	title: 'Bases de datos',
 	desc: 'Puedo construir perfectamente y mantener una base de datos relacional',
 	images: [

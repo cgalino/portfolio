@@ -10,7 +10,6 @@ const MenuDesktop = ({ view, setView }) => {
     }, [view]);
 
     const HardSkillButtons = data.map((e) => <HardSkillsButton key={e.id} view={view} setView={setView} skill={e} />)
-
     return (
         <nav className="skills__menu">
             <ul>
@@ -22,8 +21,8 @@ const MenuDesktop = ({ view, setView }) => {
 };
 
 const setBar = (view, bar) => {
-    const name = data.filter(e => e.id = view);
-    switch (name) {
+    const v = data.filter(e => e.id == view)[0];
+    switch (v.name) {
         case 'FRONTEND': bar.current.style.transform = 'translateY(0rem)';
             break;
         case 'BACKEND': bar.current.style.transform = 'translateY(2.5rem)';
@@ -31,6 +30,7 @@ const setBar = (view, bar) => {
         case 'TOOLS': bar.current.style.transform = 'translateY(5rem)';
             break;
         case 'DATABASE': bar.current.style.transform = 'translateY(7.5rem)';
+            break;
     }
 };
 
