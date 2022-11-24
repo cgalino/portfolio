@@ -11,17 +11,9 @@ const ProjectsFilter = ({ filters, setFilters }) => {
     useEffect(() => setFilters({ search, techs }), [search, techs]);
 
     return (
-        <div className="flex flex-row justify-start flex-wrap w-full gap-2">
-            <div>
-                <div className="relative text-lg bg-transparent text-gray-800 w-48">
-                    <ProjectFilterTechList tech={techs} setTechs={setTechs} />
-                </div>
-            </div>
-            <div id="grow w-full">
-                <div className="relative text-lg bg-transparent text-gray-800 w-96">
-                    <ProjectFilterSearch search={search} setSearch={setSearch} />
-                </div>
-            </div>
+        <div className="flex flex-row justify-start flex-wrap-reverse w-full gap-2">
+            <ProjectFilterTechList tech={techs} setTechs={setTechs} />
+            <ProjectFilterSearch search={search} setSearch={setSearch} />
         </div>
     )
 }

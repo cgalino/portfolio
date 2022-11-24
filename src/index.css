@@ -43,8 +43,24 @@ p {
   color: var(--secondary);
 }
 
+.secondary-50 {
+  color: var(--secondary-50);
+}
+
 .tertiary {
   color: var(--tertiary);
+}
+
+.bg-primary {
+  background-color: var(--primary)
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary);
 }
 
 .jetBrains {
@@ -67,7 +83,7 @@ p {
   background-color: rgba(255, 255, 255, 0.14);
 }
 
-.bg-mid-hard-transparent:hover {
+button>.bg-mid-hard-transparent:hover {
   background-color: rgba(255, 255, 255, 0.08);
 }
 

@@ -17,7 +17,7 @@ const Projects = () => {
     const { ref: ProjectsRef } = useObserver();
     let [filters, setFilters] = useState({
         search: '',
-        techs: ''
+        techs: [1,5]
     })
 
     return (

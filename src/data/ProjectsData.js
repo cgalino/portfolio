@@ -23,7 +23,7 @@ const data = [
             'img/projects/AGENLITE/3.png',
             'img/projects/AGENLITE/4.png',
         ]
-    },+
+    },
 ];
 
 
