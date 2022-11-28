@@ -7,7 +7,7 @@ function SoftSkills() {
     const { ref: aboutRef } = showObserver();
 
     const items = SoftSkillsData.map(e => (
-        <div key={e.id} className="card drop-shadow-lg w-96 h-68 tab-content lg:minh72">
+        <div key={e.id} className="card drop-shadow-lg w-96 h-68 tab-content  duration-300 hover:-translate-y-1 lg:minh72">
             <div className="flex flex-col content-between gap-6">
                 <div className='logo-div'>
                     <i className={"fas fa-3x " + e.fa_icon} title={e.title}></i>

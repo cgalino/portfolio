@@ -61,3 +61,55 @@ header h2 {
         height: 144px;
     }
 }
+
+@media screen and (min-width: 2049px) {
+    #logo__div {
+        padding-right: 11rem;
+    }
+}
+
+@media screen and (min-width: 3049px) {
+    #logo__div {
+        padding-right: 45rem;
+    }
+}
+
+
+@media (max-height: 600px) {
+    #header_titles_div {
+        gap: 1rem;
+        padding-top:10px;
+    }
+    #header_joiner_div{
+        gap: 0px;
+    }
+}
+
+@media (max-height: 800px) {
+    #header_titles_div {
+        gap: 2rem;
+        padding-top:15px;
+    }
+    #header_joiner_div{
+        gap: 1rem
+    }
+}
+
+@media (max-height: 980px) {
+    #header_titles_div {
+        gap: 2.5rem;
+        padding-top:20px;
+    }
+}
+
+@media (min-height: 981px) {
+    #header_titles_div {
+        gap: 3rem;
+    }
+}
+
+@media (min-height: 1200px) {
+    #header_titles_div {
+        gap: 5rem;
+    }
+}
