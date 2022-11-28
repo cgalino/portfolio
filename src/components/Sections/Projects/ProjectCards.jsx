@@ -14,13 +14,13 @@ const ProjectsCards = () => {
                     automatización y gestión eficiente del trabajo de un Contact-Center." techs={[2, 3, 6]} images={['img/projects/GUC/1.png',
                     'img/projects/GUC/2.png']} />
             <ProjectCard id="1" name="GUC" title="Gestión unificada de contactos" url="https://www.promo-soft.eu" body="GUC es una solución de software CTI diseñada para la
-                    automatización y gestión eficiente del trabajo de un Contact-Center." techs={[2, 3, 6]} images={['img/projects/GUC/1.png',
+                    automatización y gestión eficiente del trabajo de un Contact-Center." techs={[3, 4]} images={['img/projects/GUC/1.png',
                     'img/projects/GUC/2.png']} />
             <ProjectCard id="1" name="GUC" title="Gestión unificada de contactos" url="https://www.promo-soft.eu" body="GUC es una solución de software CTI diseñada para la
-                    automatización y gestión eficiente del trabajo de un Contact-Center." techs={[2, 3, 6]} images={['img/projects/GUC/1.png',
+                    automatización y gestión eficiente del trabajo de un Contact-Center." techs={[2,6]} images={['img/projects/GUC/1.png',
                     'img/projects/GUC/2.png']} />
             <ProjectCard id="1" name="GUC" title="Gestión unificada de contactos" url="https://www.promo-soft.eu" body="GUC es una solución de software CTI diseñada para la
-                    automatización y gestión eficiente del trabajo de un Contact-Center." techs={[2, 3, 6]} images={['img/projects/GUC/1.png',
+                    automatización y gestión eficiente del trabajo de un Contact-Center." techs={[1,5]} images={['img/projects/GUC/1.png',
                     'img/projects/GUC/2.png']} />
         </div>
     )
