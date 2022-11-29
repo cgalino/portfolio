@@ -1,0 +1,9 @@
+.project-card {
+    width: 410px;
+}
+
+.project-card h3 {
+    color: var(--secondary);
+    font-size: 1.4rem;
+    font-weight: 600;
+}

@@ -29,7 +29,7 @@ function ProjectFilterTechList({ tech, setTech }) {
                     leaveFrom="opacity-100"
                     leaveTo="opacity-0"
                 >
-                    <Listbox.Options className="absolute w-full mt-4 overflow-auto rounded-xl bg-mid-hard-transparent py-1 w-full text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                    <Listbox.Options className="absolute w-full z-10 mt-4 overflow-auto rounded-xl bg-hard-transparent py-1 w-full text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
                         {techs.map((t) => (
                             <Listbox.Option
                                 key={t.id}
