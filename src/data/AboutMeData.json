@@ -11,7 +11,7 @@
         "fa_icon": "fa-user-graduate",
         "tab_title": "Formación",
         "content_title": "Formación",
-        "content_body": "<p>Empecé estudiando un CFGM de Sistemas microinformáticos y redes<strong>(SMX)</strong>, y a continuación cursé el CFGS en desarrollo de aplicaciones multiplataforma<strong>(DAM)</strong>.</p><p> Posteriormente, me especialitcé en un curso de FrontEnd Developer con VUE en la UAB. No obstante, <i>la mayor parte de mi conocimiento la he adquirido de manera autodidacta mientras trabajaba como desarrollador.</i></p>"
+        "content_body": "<p>Empecé estudiando un CFGM de Sistemas microinformáticos y redes<strong>(SMX)</strong>, y a continuación cursé el CFGS en desarrollo de aplicaciones multiplataforma<strong>(DAM)</strong>.</p><p> Posteriormente, me especialitcé en un curso de FrontEnd Developer con VUE en la UAB. No obstante, <i>la mayor parte de mi conocimiento la he adquirido de manera <b>autodidacta</b> mientras trabajaba como desarrollador.</i></p>"
     },
     {
         "id": "experiencia",
