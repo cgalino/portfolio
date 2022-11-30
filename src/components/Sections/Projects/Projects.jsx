@@ -24,7 +24,7 @@ const Projects = () => {
         <section id="Projects" className="mb-20 space-x-20 overflow-hidden sm:mb-32 sm:space-y-32 md:mb-40 md:space-y-40">
             <div className="Projects" ref={ProjectsRef}>
                 <Title title="Proyectos" number="4" />
-                <div id="Projects_main" className="flex flex-col items-center gap-20 justify-center py-5">
+                <div id="Projects_main" className="flex flex-col items-center gap-10 justify-center py-5">
                     <ProjectsFilter filters={filters} setFilters={setFilters} />
                     <ProjectCards filters={filters}/>
                 </div>

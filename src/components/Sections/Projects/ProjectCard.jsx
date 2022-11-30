@@ -10,8 +10,8 @@ const ProjectsCard = ({ props }) => {
     console.log(techBadges)
 
     return (
-        <div key={key} className="project-card bg-mid-transparent m-4 rounded-xl border-1">
-            <div className="h-full w-full rounded-lg border-white overflow-hidden">
+        <div key={key} className="project-card bg-mid-transparent my-4 rounded-xl border-1">
+            <div className="h-full rounded-lg border-white overflow-hidden">
                 <div className="relative mx-2 mt-2">
                     <Carrousel imgs={images} />
                     <h3 class="absolute bottom-2 right-2">

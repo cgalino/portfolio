@@ -19,7 +19,7 @@ const ProjectsCards = ({ filters }) => {
         console.log(filteredProjects);
 
         return (
-                <div className='flex flex-row flex-wrap px-2 justify-center'>
+                <div className='flex flex-row flex-wrap gap-4 justify-center'>
                         {
                                 filteredProjects.map(p => <ProjectCard props={p} />)
                         }
