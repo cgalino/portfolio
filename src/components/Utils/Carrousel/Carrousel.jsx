@@ -25,7 +25,7 @@ function Carrousel({ imgs }) {
 
     return (
         <>
-            <img className="opacity-75 h-60 m-auto hover:scale-105 transition-all duration-100 hover:opacity-100 transition-opacity duration-500 object-cover object-center rounded-t-xl rounded-b-md" src={imgs[activeImg]} alt="blog"></img>
+            <img className="opacity-75 h-60 m-auto transition-all duration-500 hover:scale-105 hover:opacity-100 object-cover object-center rounded-t-xl rounded-b-md" src={imgs[activeImg]} alt="blog"></img>
             {backNext[0] && <i class="absolute inset-y-1/2 drop-shadow cursor-pointer left-5 secondary fas fa-xl fa-circle-chevron-left" onClick={() => setActiveImgClick('previous')}></i>}
             {backNext[1] && <i class="absolute inset-y-1/2 drop-shadow cursor-pointer right-5 secondary fas  fa-xl fa-circle-chevron-right" onClick={() => setActiveImgClick('next')}></i>}
         </>
