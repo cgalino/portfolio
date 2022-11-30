@@ -9,7 +9,6 @@ const ProjectsCards = ({ filters }) => {
         const [filteredProjects, setFilteredProjects] = useState(projectsData);
         const filterProjects = () => {
                 setFilteredProjects(filteredProjects);
-
         }
 
         useEffect(() => {
