@@ -2,7 +2,7 @@
 const ProjectFilterSearch = ({ search, setSearch }) => {
 
     let typingTimer;
-    let doneTypingInterval = 350;
+    const doneTypingInterval = 350;
     const inputTextFilter = document.getElementById('pf-search');
 
     const startCountDown = () => {
@@ -10,10 +10,7 @@ const ProjectFilterSearch = ({ search, setSearch }) => {
         typingTimer = setTimeout(filter, doneTypingInterval);
     }
 
-    const filter = () => {
-        const val = inputTextFilter.value;
-        setSearch(val);
-    }
+    const filter = () => setSearch(inputTextFilter.value);
 
     return (
         <div className="relative text-gray-100 min-w-[50%] flex items-center border-2 py-2 bg-mid-light-transparent rounded-xl border-gray-600 w-full md:w-72">
@@ -21,7 +18,7 @@ const ProjectFilterSearch = ({ search, setSearch }) => {
                 onKeyDown={() => clearTimeout()}
                 onKeyUp={() => startCountDown()}
                 type="text"
-                placeholder="Filtrar"
+                placeholder="Filtro por texto"
                 defaultValue={search} />
             <i className="absolute right-0 top-0 mt-4 mr-4 fas fa-search text-gray-400"></i>
         </div>

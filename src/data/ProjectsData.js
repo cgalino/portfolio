@@ -11,6 +11,10 @@ const data = [
             'img/projects/GUC/1.jpg',
             'img/projects/GUC/2.jpg',
             'img/projects/GUC/3.jpg',
+            'img/projects/GUC/4.jpg',
+            'img/projects/GUC/5.jpg',
+            'img/projects/GUC/6.jpg',
+            'img/projects/GUC/7.jpg',
         ]
     },
     {
@@ -21,7 +25,11 @@ const data = [
         body: '<p>App con <b>noticias, foro y más</b> sobre Sorare (Juego de coleccionables de futbol NFT).</p><p><i>Proyecto personal desarrollado además con Mysql y Express</i></p>',
         techs: [1, 3, 7],
         images: [
-            'img/projects/SORARERS/1.png'
+            'img/projects/SORARERS/1.jpg',
+            'img/projects/SORARERS/2.jpg',
+            'img/projects/SORARERS/3.jpg',
+            'img/projects/SORARERS/4.jpg',
+            'img/projects/SORARERS/5.png',
         ]
     },
     {

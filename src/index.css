@@ -95,6 +95,11 @@ p {
   background-color: rgba(0, 0, 0, 0.364);
 }
 
+.bg-project-gradient{
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  width: 100%;
+}
+
 button>.bg-mid-hard-transparent:hover {
   background-color: rgba(255, 255, 255, 0.08);
 }

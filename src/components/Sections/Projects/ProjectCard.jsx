@@ -7,14 +7,12 @@ const ProjectsCard = ({ props }) => {
     const { key, name, title, body, images, techs, link } = { ...props };
 
     let techBadges = techs.map((t) => techsData.filter((e) => t == e.id)[0]);
-    console.log(techBadges)
-
     return (
         <div key={key} className="project-card bg-mid-transparent my-4 rounded-xl border-1">
             <div className="h-full rounded-lg border-white overflow-hidden">
                 <div className="relative mx-2 mt-2">
                     <Carrousel imgs={images} />
-                    <h3 class="absolute bottom-2 right-2">
+                    <h3 className="absolute bottom-2 right-2">
                         <div className='flex flex-row'>
                             {techBadges.map(e => e && <TechBadge clase={e.clase} name={e.name} url={e.url} />)}
                         </div>

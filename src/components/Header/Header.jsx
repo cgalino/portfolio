@@ -19,7 +19,7 @@ function Header() {
                     </h2>
                     <div className="header-btns flex flex-row lg:justify-start justify-center gap-4 pt-10">
                         <Button style="transp" title="Conóceme" href="#about"></Button>
-                        <Button style="white" title="Descargar CV" href="cv.png"></Button>
+                        <Button style="white" title="Descargar CV" href="CarlesGalinoCV.pdf"></Button>
                     </div>
                 </div>
                 <Logo />
