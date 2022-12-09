@@ -9,15 +9,17 @@ const ProjectsCards = ({ filters }) => {
         let pd = data.map(obj => ({ ...obj, searchText: `${obj.name} ${obj.body}`.toUpperCase() }))
 
         const [filteredProjects, setFilteredProjects] = useState(pd);
+        const hasTech = (tech) => filters.techs.indexOf(tech) >= 0;
 
-        const filterSearch = (f) => f.searchText.includes(filters.search);
-        const filterTechs = (f) => f.techs.map(e => filters.techs.includes(e));
+        const filterSearch = f => f.searchText.indexOf(filters.search) >= 0;
+        const filterTechs = f => f.techs.some(hasTech);
 
         const filterProjects = () => {
                 let fp = [...pd];
-                if (filters.filterSearch) fp = fp.filter(f => filterSearch(f));
-                if (filters.filterTechs) fp = fp.filter(f => filterSearch(f));
-                console.log(fp);
+
+                if (filters.search) fp = fp.filter(filterSearch);
+                if (filters.techs.length > 0) fp = fp.filter(filterTechs);
+                
                 setFilteredProjects(fp);
         }
 
