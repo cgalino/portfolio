@@ -8,7 +8,7 @@ const ProjectsCard = ({ props }) => {
 
     let techBadges = techs.map((t) => techsData.filter((e) => t == e.id)[0]);
     return (
-        <div key={key} className="project-card bg-mid-transparent my-4 rounded-xl border-1">
+        <div key={key} className="project-card bg-project-card my-4 rounded-xl shadow-xl border-2 border-gray-800">
             <div className="h-full rounded-lg border-white overflow-hidden">
                 <div className="relative mx-2 mt-2">
                     <Carrousel imgs={images} />
@@ -21,7 +21,7 @@ const ProjectsCard = ({ props }) => {
                 <div className="flex flex-col justify-content-center gap-4 p-4">
                     <h4 className="title-font font-medium text-gray-400">{title}</h4>
                     <h3 className="title-font text-lg font-medium text-gray-600 mb-3">{name}</h3>
-                    <div className='flex flex-col h-32 content-between gap-3' dangerouslySetInnerHTML={{ __html: body }} >
+                    <div className='flex flex-col h-24 text-sm content-between gap-3' dangerouslySetInnerHTML={{ __html: body }} >
                     </div>
                     {
                         (link)

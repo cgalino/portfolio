@@ -6,7 +6,7 @@ import data from '../../../data/ProjectsData'
 
 const ProjectsCards = ({ filters }) => {
 
-        let pd = data.map(obj => ({ ...obj, searchText: `${obj.name} ${obj.body}`.toUpperCase() }))
+        const pd = data.map(obj => ({ ...obj, searchText: `${obj.name} ${obj.title} ${obj.body}`.toUpperCase() }))
 
         const [filteredProjects, setFilteredProjects] = useState(pd);
         const hasTech = (tech) => filters.techs.indexOf(tech) >= 0;

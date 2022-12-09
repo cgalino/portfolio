@@ -4,7 +4,7 @@ const data = [
         name: 'GUC',
         title: 'Gestión unificada de contactos',
         web: 'https://www.promo-soft.eu/products/gucweb.html',
-        body: '<p>Software <b>CTI</b> diseñado para la automatización del trabajo de un <b>Contact-Center</b></p><i>Comunicación a través de los canales más demandados</i> ',
+        body: '<p>Software <b>CTI</b> diseñado para la automatización del trabajo de un <b>Contact-Center</b></p><i class="text-xs">Comunicación a través de los canales más demandados</i> ',
         techs: [2, 3],
         link: 'https://www.promo-soft.eu/products/gucweb.html',
         images: [
@@ -22,7 +22,7 @@ const data = [
         name: 'Sorarers',
         link: 'https://www.sorarers.com',
         title: 'Proyecto personal en desarrollo',
-        body: '<p>App con <b>noticias, foro y más</b> sobre Sorare (Juego de coleccionables de futbol NFT).</p><p><i>Proyecto personal desarrollado además con Mysql y Express</i></p>',
+        body: '<p>App con <b>noticias, foro y más</b> sobre Sorare (Juego de coleccionables de futbol NFT).</p><p><i class="text-xs">Proyecto personal desarrollado además con Mysql y Express</i></p>',
         techs: [1, 3, 7],
         images: [
             'img/projects/SORARERS/1.jpg',
@@ -36,7 +36,7 @@ const data = [
         key: 3,
         name: 'VoIP',
         title: 'Operador IP',
-        body: '<p>Portal de gestión para clientes de <b>telefonía IP</b> de Promo-soft.</p><p><i>Generación y descarga de facturas, historicos de llamadas, envio de faxes y más.</i>',
+        body: '<p>Portal de gestión para clientes de <b>telefonía IP</b> de Promo-soft.</p><p><i class="text-xs">Generación y descarga de facturas, historicos de llamadas, envio de faxes y más.</i>',
         techs: [2, 3, 6],
         link: 'https://www.promo-soft.eu/services/voip.html',
         images: [
@@ -49,7 +49,7 @@ const data = [
         name: 'Contacto Web Promo-soft',
         link: 'https://www.promo-soft.eu/contacto.html',
         title: 'Página contacto de Promo-soft',
-        body: '<p>Contacto con el cliente desde la web a través de <b>chat, whatsapp, videollamada</b></p><p><i>La interacción entre el cliente y el agente es posible gracias a GUC</i><p>',
+        body: '<p>Contacto con el cliente desde la web a través de <b>chat, whatsapp, videollamada</b></p><p><i class="text-xs">La interacción entre el cliente y el agente es posible gracias a GUC</i><p>',
         techs: [2, 3],
         images: [
             'img/projects/WEBPROMO/1.png',

@@ -8,3 +8,7 @@
     font-size: 1.4rem;
     font-weight: 600;
 }
+
+.bg-project-card{
+    background-image: linear-gradient(to right top, #1b2336, #1a2335, #1a2234, #192232, #192131, #192133, #182134, #182136, #18223a, #17233e, #172342, #172446);
+}
