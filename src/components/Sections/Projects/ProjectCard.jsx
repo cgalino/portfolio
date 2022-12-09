@@ -8,7 +8,7 @@ const ProjectsCard = ({ props }) => {
 
     let techBadges = techs.map((t) => techsData.filter((e) => t == e.id)[0]);
     return (
-        <div key={key} className="project-card bg-project-card my-4 rounded-xl shadow-xl border-2 border-gray-800">
+        <div key={key} className="project-card bg-project-card my-4 rounded-xl shadow-xl border-gray-800">
             <div className="h-full rounded-lg border-white overflow-hidden">
                 <div className="relative mx-2 mt-2">
                     <Carrousel imgs={images} />
