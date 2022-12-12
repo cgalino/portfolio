@@ -37,7 +37,7 @@ const data = [
         name: 'VoIP',
         title: 'Operador IP',
         body: '<p>Portal de gestión para clientes de <b>telefonía IP</b> de Promo-soft.</p><p><i class="text-xs">Generación y descarga de facturas, historicos de llamadas, envio de faxes y más.</i>',
-        techs: [2, 3, 6],
+        techs: [2, 4, 6],
         link: 'https://www.promo-soft.eu/services/voip.html',
         images: [
             'img/projects/VOIP/1.png',

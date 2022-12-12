@@ -19,7 +19,7 @@ const ProjectsCards = ({ filters }) => {
 
                 if (filters.search) fp = fp.filter(filterSearch);
                 if (filters.techs.length > 0) fp = fp.filter(filterTechs);
-                
+
                 setFilteredProjects(fp);
         }
 
@@ -30,7 +30,10 @@ const ProjectsCards = ({ filters }) => {
 
         return (
                 <div className='flex flex-row flex-wrap gap-4 justify-center'>
-                        {filteredProjects.map(p => <ProjectCard props={p} />)}
+                        {(filteredProjects.length > 0)
+                                ? filteredProjects.map(p => <ProjectCard props={p} />)
+                                : <h3 className='h-60 flex items-center'><span className=''>No hay datos</span></h3>
+                        }
                 </div>
         )
 }

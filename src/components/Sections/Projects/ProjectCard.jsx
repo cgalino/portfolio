@@ -25,7 +25,7 @@ const ProjectsCard = ({ props }) => {
                     {
                         (link)
                             ? <div className="justify-self-end flex justify-center flex-wrap my-3">
-                                <a href={link}><button className="bg-gradient-to-r text-sm from-blue-600 to-purple-600 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Más información</button></a>
+                                <a href={link}><button className="bg-gradient-to-r text-sm from-blue-600 to-purple-600 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg focus:ring transform transition hover:scale-105 duration-300 ease-in-out">Más información</button></a>
                             </div>
                             : null
                     }
