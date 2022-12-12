@@ -19,8 +19,7 @@ const ProjectsCard = ({ props }) => {
                     </h3>
                 </div>
                 <div className="flex flex-col justify-content-center gap-4 p-4">
-                    <h4 className="title-font font-medium text-gray-400">{title}</h4>
-                    <h3 className="title-font text-lg font-medium text-gray-600 mb-3">{name}</h3>
+                    <div className='flex flex-row justify-center items-center mb-3 gap-3'><h3 className="title-font text-lg font-medium text-gray-600">{name}</h3><span className="title-font text-xs font-light vertical-center text-gray-400">{title}</span></div>
                     <div className='flex flex-col h-24 text-sm content-between gap-3' dangerouslySetInnerHTML={{ __html: body }} >
                     </div>
                     {

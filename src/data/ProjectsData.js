@@ -46,9 +46,9 @@ const data = [
     },
     {
         key: 4,
-        name: 'Contacto Web Promo-soft',
+        name: 'Página de contacto',
         link: 'https://www.promo-soft.eu/contacto.html',
-        title: 'Página contacto de Promo-soft',
+        title: 'Web Promo-soft',
         body: '<p>Contacto con el cliente desde la web a través de <b>chat, whatsapp, videollamada</b></p><p><i class="text-xs">La interacción entre el cliente y el agente es posible gracias a GUC</i><p>',
         techs: [2, 3],
         images: [

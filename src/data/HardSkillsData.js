@@ -31,7 +31,7 @@ const data = [{
 	id: 1,
 	name: 'FRONTEND',
 	title: 'Frontend',
-	desc: 'Ámbito con el que cuento con mas experiencia y conocimiento, programo a diario y utilizo distintos frameworks y librerias dependiendo de la necesidad y el proyecto',
+	desc: 'Ámbito con el que cuento con mas experiencia y conocimiento, tanto en el desarrollo de aplicaciones web como en el diseño de interfaces',
 	images: [
 		{ img: imgs.html, text: 'HTML' },
 		{ img: imgs.css, text: 'CSS' },
@@ -45,7 +45,7 @@ const data = [{
 	id: 2,
 	name: 'BACKEND',
 	title: 'Backend',
-	desc: 'He desarrollado aplicaciones backend con diversos lenguajes y librerias, con las que me siento mas cómodo actualmente son node y python',
+	desc: 'He trabajado con distintos lenguajes de programación y frameworks para el backend, tanto en entornos de desarrollo como de producción',
 	images: [
 		{ img: imgs.node, text: 'NodeJS' },
 		{ img: imgs.express, text: 'Express' },
@@ -57,7 +57,7 @@ const data = [{
 	id: 3,
 	name: 'TOOLS',
 	title: 'Herramientas',
-	desc: 'Uso las herramientas más comunes y me informo de las novedades para estar siempre al pie del cañón.',
+	desc: 'Uso las herramientas más comunes y me informo de las novedades para estar siempre al dia.',
 	images: [
 		{ img: imgs.git, text: 'Git' },
 		{ img: imgs.vite, text: 'Vite' },
@@ -69,7 +69,7 @@ const data = [{
 	id: 4,
 	name: 'DATABASE',
 	title: 'Bases de datos',
-	desc: 'Puedo construir perfectamente y mantener una base de datos relacional',
+	desc: 'Tengo experiencia con distintas bases de datos, tanto relacionales como no relacionales',
 	images: [
 		{ img: imgs.db2, text: 'DB2' },
 		{ img: imgs.mongo, text: 'MongoDB' },

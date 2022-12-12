@@ -10,5 +10,6 @@
 }
 
 .bg-project-card{
-    background-image: linear-gradient(to right top, #1b2336, #1a2335, #1a2234, #192232, #192131, #192133, #182134, #182136, #18223a, #17233e, #172342, #172446);
+    /* background-image: linear-gradient(to right top, #1b2336, #1a2335, #1a2234, #192232, #192131, #192133, #182134, #182136, #18223a, #17233e, #172342, #172446); */
+    background-image: radial-gradient(circle, #2e3139, #2a2d35, #252831, #21242e, #1d202a);
 }
