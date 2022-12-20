@@ -1,19 +1,16 @@
 # portfolio
 
-![image](https://user-images.githubusercontent.com/16308574/208631921-25d18f18-552b-4796-9fff-219d6f483096.png)
+![image](https://user-images.githubusercontent.com/16308574/208632634-119a14d2-0a80-416f-999b-5e4172f4736d.png)
 
 Portfolio Carles Galino
 https://cgalino.github.io/portfolio/
 
 ✨ Contenido
-Portfolio personal con mis datos, conocimiento, proyectos y experiencia.
+Portfolio personal creado 100% a mano con toda la información referente a mi.
 
 💻 Stack
 
 Dev tool: VITE
-
 Js library: React
-
 Css library: TailwindCss
-
 otros paquetes npm: react-type-animation ( Animación de escribiendo ) 
