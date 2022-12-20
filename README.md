@@ -1,5 +1,6 @@
 # portfolio
 Portfolio Carles Galino
+https://cgalino.github.io/portfolio/
 
 ✨ Contenido
 Portfolio personal con mis datos, conocimiento, proyectos y experiencia.
