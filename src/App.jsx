@@ -6,6 +6,7 @@ import './styles/sections.css'
 
 //Componentes estructurales
 import Header from './components/Header/Header'
+import NewHeader from './components/Header/NewHeader'
 import Footer from './components/Footer/Footer'
 
 //Secciones de la página
@@ -34,7 +35,7 @@ function App() {
       ?
       <div id="page" className='flex flex-col justify-between'>
         {/* <div className='h-full mb-10 space-y-10 overflow-hidden'> */}
-        <Header />
+        <NewHeader />
         {/* </div> */}
         <main className=''>
           <AboutMe />
