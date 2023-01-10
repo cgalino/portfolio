@@ -112,13 +112,13 @@ export default function NewHeader() {
                                 <div className="mt-8 flex gap-x-4 justify-center">
                                     <a
                                         href="#about"
-                                        className="inline-block rounded-lg bg-gradient-to-r text-sm from-blue-600 to-purple-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                                        className="inline-block rounded-lg bg-gradient-to-r text-sm from-blue-600 to-purple-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-700"
                                     >
                                         Conóceme{' '}
                                     </a>
                                     <a
                                         title="Descargar CV" href="CarlesGalinoCV.pdf"
-                                        className="inline-block rounded-lg bg-gradient-to-r text-sm from-purple-600 to-blue-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                                        className="inline-block rounded-lg bg-gradient-to-r text-sm from-purple-600 to-blue-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-700"
                                     >
                                         Descargar CV
                                     </a>
