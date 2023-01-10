@@ -33,7 +33,7 @@ function TypingAnimationHeader() {
                             wrapper="span"
                             cursor={true}
                             repeat={false}
-                            className={'font-bold'}
+                            className={'font-bold secondary'}
                         />
                         : null
                 }

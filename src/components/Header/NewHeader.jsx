@@ -7,7 +7,7 @@ import TypingAnimationHeader from './TypingAnimationHeader'
 const navigation = [
     { name: 'Conóceme', href: '#about' },
     { name: 'Habilidades', href: '#SoftSkills' },
-    { name: 'Conocimiento', href: '#HardSkills' },
+    { name: 'Conocimientos', href: '#HardSkills' },
     { name: 'Proyectos', href: '#Projects' }
 ]
 
@@ -41,9 +41,9 @@ export default function NewHeader() {
                                 <Bars3Icon className="h-6 w-6 text-gray-200" aria-hidden="true" />
                             </button>
                         </div>
-                        <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+                        <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-6">
                             {navigation.map((item) => (
-                                <a key={item.name} href={item.href} className="font-semibold text-gray-300 hover:text-gray-100">
+                                <a key={item.name} href={item.href} className="font-semibold rounded-3xl px-4 py-2 text-gray-300 hover:text-gray-800 hover:bg-gray-300 hover:shadow-xl">
                                     {item.name}
                                 </a>
                             ))}
@@ -76,7 +76,7 @@ export default function NewHeader() {
                                             <a
                                                 key={item.name}
                                                 href={item.href}
-                                                className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-400 hover:bg-gray-400/10"
+                                                className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-400 hover:bg-gray-400/10 hover:shadow-xl"
                                             >
                                                 {item.name}
                                             </a>
@@ -91,10 +91,10 @@ export default function NewHeader() {
             <main className='overflow-hidden'>
                 <div className="relative flex justify-center px-6 lg:px-8">
                     <div className="min-h-screen max-w-3xl flex flex-row justify-center items-center">
-                        <div className='m-auto top-50'>
-                            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                                <div className="relative rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-sky-200/10 hover:ring-sky-300/20">
-                                    <span className="text-sky-400">
+                        <div className='m-auto'>
+                            <div className="my-8 flex justify-center">
+                                <div className="relative rounded-full py-2 px-4 text-md sm:text-xl leading-6 bg-gray-900 shadow-xl">
+                                    <span className="text-gray-300">
                                         Frontend Developer
                                         <a href="#" className="font-semibold text-indigo-600">
 
@@ -112,13 +112,13 @@ export default function NewHeader() {
                                 <div className="mt-8 flex gap-x-4 justify-center">
                                     <a
                                         href="#about"
-                                        className="inline-block rounded-lg bg-gradient-to-r text-sm from-blue-600 to-purple-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-700"
+                                        className="inline-block rounded-lg bg-gradient-to-r text-sm from-blue-600 to-purple-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base shadow-xl leading-7 text-white hover:bg-indigo-700"
                                     >
                                         Conóceme{' '}
                                     </a>
                                     <a
                                         title="Descargar CV" href="CarlesGalinoCV.pdf"
-                                        className="inline-block rounded-lg bg-gradient-to-r text-sm from-purple-600 to-blue-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-700"
+                                        className="inline-block truncate rounded-lg bg-gradient-to-r text-sm from-purple-600 to-blue-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base shadow-xl leading-7 text-white hover:bg-indigo-700"
                                     >
                                         Descargar CV
                                     </a>
