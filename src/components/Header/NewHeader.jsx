@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { XMarkIcon, Bars3Icon } from '@heroicons/react/24/outline'
 import TypingAnimationHeader from './TypingAnimationHeader'
+import { useTranslation } from "react-i18next";
 
 const navigation = [
     { name: 'Conóceme', href: '#about' },
@@ -13,13 +14,19 @@ const navigation = [
 
 export default function NewHeader() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const { t } = useTranslation();
+
+    let animationTexts = [
+        t("hola"),
+        t("holaSoy")
+    ]
 
     return (
         <div>
             <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
                 <a href="#" className="-m-1.5 p-1.5">
                     <span className="sr-only">Carles Galino</span>
-                    <img className="h-8" src="./img/yoraro.png" alt="" />
+                    <img className="h-4" src="./img/logo.svg" alt="" />
                 </a>
             </div>
             <div className="px-6 pt-6 lg:px-8">
@@ -28,7 +35,7 @@ export default function NewHeader() {
                         <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
                             <a href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Carles Galino</span>
-                                <img className="h-16" src="./img/yoraro.png" alt="" />
+                                <img className="h-16" src="./img/logo.svg" alt="" />
                             </a>
                         </div>
                         <div className="flex lg:hidden">
@@ -41,7 +48,7 @@ export default function NewHeader() {
                                 <Bars3Icon className="h-6 w-6 text-gray-200" aria-hidden="true" />
                             </button>
                         </div>
-                        <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-6">
+                        <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-2">
                             {navigation.map((item) => (
                                 <a key={item.name} href={item.href} className="font-semibold rounded-3xl px-4 py-2 text-gray-300 hover:text-gray-800 hover:bg-gray-300 hover:shadow-xl">
                                     {item.name}
@@ -55,7 +62,7 @@ export default function NewHeader() {
                                 <div className="flex">
                                     <a href="#" className="-m-1.5 p-1.5">
                                         <span className="sr-only">Carles Galino</span>
-                                        <img className="h-16" src="./img/yoraro.png" alt="" />
+                                        <img className="h-16" src="./img/logo.svg" alt="" />
                                     </a>
                                 </div>
                                 <div className="flex">
@@ -104,10 +111,10 @@ export default function NewHeader() {
                             </div>
                             <div>
                                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-                                    <TypingAnimationHeader />
+                                    <TypingAnimationHeader texts={animationTexts} />
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-400 sm:text-center">
-                                     Desarrollador web apasionado por la tecnología y la programación
+                                    Desarrollador web apasionado por la tecnología y la programación
                                 </p>
                                 <div className="mt-8 flex gap-x-4 justify-center">
                                     <a

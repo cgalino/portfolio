@@ -1,4 +1,4 @@
-[
+const data = [
     {
         "id": "quiensoy",
         "fa_icon": "fa-child-reaching",
@@ -28,3 +28,5 @@
          "content_body": "<p>En cuanto a ambición y perspectiva de futuro me caracteriza la superación personal, el compartir conocimiento y construir junto al equipo proyectos ilusionantes.</p><p></p>"
     }
 ]
+
+export default data;

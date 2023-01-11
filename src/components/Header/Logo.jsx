@@ -22,7 +22,7 @@ function Logo() {
     return (
         <div id="logo__div" className="place-self-end grid w-full grid-row m-auto sm:place-items-end">
             <span>
-                <img id="avatar" src="./img/yoraro.png" className='m-auto' alt="" width={"320px"} />
+                <img id="avatar" src="./img/logo.svg" className='m-auto' alt="" width={"320px"} />
                 <Socials size={socialsSize} />
             </span>
         </div>

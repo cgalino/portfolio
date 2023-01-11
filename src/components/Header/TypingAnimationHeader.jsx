@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 
-function TypingAnimationHeader() {
+function TypingAnimationHeader(props) {
 
     const [hola, setHola] = useState(false);
 
@@ -12,9 +12,9 @@ function TypingAnimationHeader() {
                     sequence={[
                         '',
                         200,
-                        '¡Hola!', // Types 'One'
+                        props.texts[0], // Types 'One'
                         600, // Waits 1s
-                        '¡Hola! Soy ', // Deletes 'One' and types
+                        props.texts[1], // Deletes 'One' and types
                         () => {
                             setHola(true); // Place optional callbacks anywhere in the array
                         }
@@ -22,7 +22,7 @@ function TypingAnimationHeader() {
                     wrapper="span"
                     cursor={false}
                     repeat={false}
-                    style={{ fontSize: '1em'}}
+                    style={{ fontSize: '1em' }}
                 />
                 {
                     (hola) ?
