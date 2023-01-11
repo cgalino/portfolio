@@ -13,7 +13,7 @@ function TypingAnimationHeader(props) {
                         '',
                         200,
                         props.texts[0], // Types 'One'
-                        600, // Waits 1s
+                        500, // Waits 1s
                         props.texts[1], // Deletes 'One' and types
                         () => {
                             setHola(true); // Place optional callbacks anywhere in the array
@@ -22,7 +22,7 @@ function TypingAnimationHeader(props) {
                     wrapper="span"
                     cursor={false}
                     repeat={false}
-                    className={'font-light'}
+                    className={'font-light typing-animation-hola'}
                 />
                 {
                     (hola) ?

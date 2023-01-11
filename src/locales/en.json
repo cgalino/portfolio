@@ -1,6 +1,18 @@
 {
     "translation": {
-        "hola": "Hi!",
-        "holaSoy": "Hi! I am "
+        "header": {
+            "hola": "Hi!",
+            "holaSoy": "Hi! It's ",
+            "descripcion": "Web developer passionate about technology and programming",
+            "conoceme": "Know me",
+            "descargarCV": "Download CV"
+        },
+        "titulos": {
+            "1": "Know me",
+            "2": "Soft skills",
+            "3": "Hard skills",
+            "4": "Projects"
+        },
+        "aboutMe": {}
     }
 }

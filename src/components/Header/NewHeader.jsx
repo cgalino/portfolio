@@ -4,12 +4,13 @@ import { Dialog } from '@headlessui/react'
 import { XMarkIcon, Bars3Icon } from '@heroicons/react/24/outline'
 import TypingAnimationHeader from './TypingAnimationHeader'
 import { useTranslation } from "react-i18next";
+import LanguageSelector from '../Utils/LanguageSelector/LanguageSelector'
 
 const navigation = [
-    { name: 'Conóceme', href: '#about' },
-    { name: 'Habilidades', href: '#SoftSkills' },
-    { name: 'Conocimientos', href: '#HardSkills' },
-    { name: 'Proyectos', href: '#Projects' }
+    { name: 'Conóceme', href: '#about', id: 1 },
+    { name: 'Habilidades', href: '#SoftSkills', id: 2 },
+    { name: 'Conocimientos', href: '#HardSkills', id: 3 },
+    { name: 'Proyectos', href: '#Projects', id: 4 },
 ]
 
 export default function NewHeader() {
@@ -17,8 +18,8 @@ export default function NewHeader() {
     const { t } = useTranslation();
 
     let animationTexts = [
-        t("hola"),
-        t("holaSoy")
+        t("header.hola"),
+        t("header.holaSoy")
     ]
 
     return (
@@ -51,10 +52,11 @@ export default function NewHeader() {
                         <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-2">
                             {navigation.map((item) => (
                                 <a key={item.name} href={item.href} className="font-semibold rounded-3xl px-4 py-2 text-gray-300 hover:text-gray-800 hover:bg-gray-300 hover:shadow-xl">
-                                    {item.name}
+                                    {t('titulos.' + item.id)}
                                 </a>
                             ))}
                         </div>
+                        <LanguageSelector />
                     </nav>
                     <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                         <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-black px-6 py-6 lg:hidden">
@@ -114,20 +116,20 @@ export default function NewHeader() {
                                     <TypingAnimationHeader texts={animationTexts} />
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-400 sm:text-center">
-                                    Desarrollador web apasionado por la tecnología y la programación
+                                    {t('header.descripcion')}
                                 </p>
                                 <div className="mt-8 flex gap-x-4 justify-center">
                                     <a
                                         href="#about"
                                         className="inline-block rounded-lg bg-gradient-to-r text-sm from-blue-600 to-purple-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base shadow-xl leading-7 text-white hover:bg-indigo-700"
                                     >
-                                        Conóceme{' '}
+                                        {t('header.conoceme')}
                                     </a>
                                     <a
-                                        title="Descargar CV" href="CarlesGalinoCV.pdf"
+                                        title={t('header.descargarCV')} href="CarlesGalinoCV.pdf"
                                         className="inline-block truncate rounded-lg bg-gradient-to-r text-sm from-purple-600 to-blue-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base shadow-xl leading-7 text-white hover:bg-indigo-700"
                                     >
-                                        Descargar CV
+                                        {t('header.descargarCV')}
                                     </a>
                                 </div>
                             </div>
