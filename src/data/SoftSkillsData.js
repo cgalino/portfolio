@@ -1,4 +1,4 @@
-[
+const data = [
     {
         "id": "1",
         "fa_icon": "fa-handshake",
@@ -35,5 +35,6 @@
         "title": "Trabajo en equipo",
         "body": "<p>Es indispensable saber trabajar en equipo y compartir el conocimiento para avanzar y prosperar tanto dentro como fuera del ámbito laboral.</p>"
     }
-  
 ]
+
+export default data;

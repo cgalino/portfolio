@@ -34,6 +34,32 @@
                 "subtitulo": "Concerns and ambition",
                 "descripcion": "<p>In terms of ambition and future perspective, I am characterized by personal improvement, sharing knowledge and building exciting projects together with the team.</p><p></p>"
             }
+        },
+        "softskills": {
+            "1": {
+                "titulo": "Commitment",
+                "descripcion": "<p>The <b>commitment, loyalty and honesty</b> are my values and principles thanks to the education obtained.</p>"
+            },
+            "2": {
+                "titulo": "Flexibility",
+                "descripcion": "<p>I understand the needs of the group and I accept the proposed changes in order to <b>improve and advance</b> in any aspect.</p>"
+            },
+            "3": {
+                "titulo": "Enthusiasm and motivation",
+                "descripcion": "<p>Technology advances very quickly and I always live with the concern of learning more skills to improve.</p>"
+            },
+            "4": {
+                "titulo": "Creativity",
+                "descripcion": "<p>As a frontend developer I have acquired some ability to <b>identify UI needs</b> that clients may have.</p>"
+            },
+            "5": {
+                "titulo": "Resilience",
+                "descripcion": "<p>Resilience and perseverance are very active factors in development. Looking for alternatives and resolving conflicts under pressure is paramount.</p>"
+            },
+            "6": {
+                "titulo": "Teamwork",
+                "descripcion": "<p>It is essential to know how to work as a team and share knowledge to advance and prosper both inside and outside the workplace.</p>"
+            }
         }
     }
 }

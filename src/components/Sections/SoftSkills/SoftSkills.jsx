@@ -1,19 +1,21 @@
 import showObserver from '../../Hooks/showObserver';
 import SectionTitle from '../../Utils/SectionTitle/SectionTitle';
-import SoftSkillsData from "../../../data/SoftSkillsData.json";
+import SoftSkillsData from "../../../data/SoftSkillsData.js";
+import { useTranslation } from "react-i18next";
 
 function SoftSkills() {
 
     const { ref: aboutRef } = showObserver();
+    const { t } = useTranslation();
 
     const items = SoftSkillsData.map(e => (
         <div key={e.id} className="card drop-shadow-lg w-96 h-68 tab-content  duration-300 hover:-translate-y-1 lg:minh72">
             <div className="flex flex-col content-between gap-6">
                 <div className='logo-div'>
-                    <i className={"fas fa-3x " + e.fa_icon} title={e.title}></i>
+                    <i className={"fas fa-3x " + e.fa_icon} title={t(`softskills.${e.id}.titulo`)}></i>
                 </div>
-                <h3>{e.title}</h3>
-                <div className='flex flex-col content-between text-base gap-3' dangerouslySetInnerHTML={{ __html: e.body }} >
+                <h3>{t(`softskills.${e.id}.titulo`)}</h3>
+                <div className='flex flex-col content-between text-base gap-3' dangerouslySetInnerHTML={{ __html: t(`softskills.${e.id}.descripcion`) }} >
                 </div>
             </div>
         </div>
