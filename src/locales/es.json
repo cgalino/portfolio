@@ -13,6 +13,27 @@
             "3": "Conocimientos",
             "4": "Proyectos"
         },
-        "aboutMe": {}
+        "aboutme": {
+            "1": {
+                "titulo": "Perfil",
+                "subtitulo": "¡Bienvenido/a!",
+                "descripcion": "<p>Mi nombre es <strong>Carles</strong> y tengo 28 años. Resido cerca de Barcelona y actualmente trabajo como frontend dev en Promo-soft, empresa dedicada a desarrollar soluciones tecnológicas para Call Centers.</p><p> Durante más de 6 años he desempeñado mis conocimientos desarrollando proyectos frontend, materia que poco a poco se ha convertido en mi pasión.</p>"
+            },
+            "2": {
+                "titulo": "Formación",
+                "subtitulo": "Formación",
+                "descripcion": "<p>Empecé estudiando un CFGM de Sistemas microinformáticos y redes<strong>(SMX)</strong>, y a continuación cursé el CFGS en desarrollo de aplicaciones multiplataforma<strong>(DAM)</strong>.</p><p> Posteriormente, me especialitcé en un curso de FrontEnd Developer con VUE en la UAB. No obstante, <i>la mayor parte de mi conocimiento la he adquirido de manera <b>autodidacta</b> mientras trabajaba como desarrollador.</i></p>"
+            },
+            "3": {
+                "titulo": "Experiencia",
+                "subtitulo": "Experiencia",
+                "descripcion": "<p>Durante mis 6 años de experiencia en <strong>Promo-Soft</strong> he llevado a cabo numerosos proyectos front de manera autosuficiente.</p><p>He aprovechado para crecer, nutrirme de conocimiento y madurar en mi labor como frontend dev.</p>"
+            },
+            "4": {
+                "titulo": "Ambición",
+                "subtitulo": "Inquietudes y ambición",
+                "descripcion": "<p>En cuanto a ambición y perspectiva de futuro me caracteriza la superación personal, el compartir conocimiento y construir junto al equipo proyectos ilusionantes.</p><p></p>"
+            }
+        }
     }
 }

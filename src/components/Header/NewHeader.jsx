@@ -5,17 +5,20 @@ import { XMarkIcon, Bars3Icon } from '@heroicons/react/24/outline'
 import TypingAnimationHeader from './TypingAnimationHeader'
 import { useTranslation } from "react-i18next";
 import LanguageSelector from '../Utils/LanguageSelector/LanguageSelector'
+import { t } from 'i18next';
 
-const navigation = [
-    { name: 'Conóceme', href: '#about', id: 1 },
-    { name: 'Habilidades', href: '#SoftSkills', id: 2 },
-    { name: 'Conocimientos', href: '#HardSkills', id: 3 },
-    { name: 'Proyectos', href: '#Projects', id: 4 },
-]
 
 export default function NewHeader() {
+
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     const { t } = useTranslation();
+
+    const navigation = [
+        { name: t('titulos.1'), href: '#about' },
+        { name: t('titulos.2'), href: '#SoftSkills' },
+        { name: t('titulos.3'), href: '#HardSkills' },
+        { name: t('titulos.4'), href: '#Projects' },
+    ]
 
     let animationTexts = [
         t("header.hola"),
@@ -52,7 +55,7 @@ export default function NewHeader() {
                         <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-2">
                             {navigation.map((item) => (
                                 <a key={item.name} href={item.href} className="font-semibold rounded-3xl px-4 py-2 text-gray-300 hover:text-gray-800 hover:bg-gray-300 hover:shadow-xl">
-                                    {t('titulos.' + item.id)}
+                                    {item.name}
                                 </a>
                             ))}
                         </div>

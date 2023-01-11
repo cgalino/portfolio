@@ -2,12 +2,12 @@
 import { React, useState } from 'react';
 import './AboutMeTabs.css';
 import AboutMeData from '../../../data/AboutMeData.js';
+import { useTranslation } from "react-i18next";
 
 function AboutMeTab() {
 
-
-    const [activeTab, setActiveTab] = useState(AboutMeData.filter(e => e.id == 'quiensoy')[0]);
-
+    const [activeTab, setActiveTab] = useState(AboutMeData.filter(e => e.id == '1')[0]);
+    const { t } = useTranslation();
 
     const tabItems = AboutMeData.map(d => (
         <button key={d.id}
@@ -18,7 +18,7 @@ function AboutMeTab() {
                     ? 'active'
                     : 'nonactive'
                 }
-        `}><i className={"fas fa-xl " + d.fa_icon} title={d.tab_title}></i> <span className="line-2 hidden md:block">{d.tab_title}</span></button>
+        `}><i className={"fas fa-xl " + d.fa_icon} title={t(`aboutme.${d.id}.titulo`)}></i> <span className="line-2 hidden md:block">{t(`aboutme.${d.id}.titulo`)}</span></button>
     ));
 
     return (
@@ -28,11 +28,11 @@ function AboutMeTab() {
             </div>
             <div id="about_card" className="card drop-shadow-lg duration-200 tab-content lg:minh72">
                 <div tabpane={activeTab.id} className="tab-pane flex flex-col content-between gap-6">
-                    <h3>{activeTab.content_title}</h3>
-                    <div id="about_card_desc" className='flex flex-col content-between gap-3' dangerouslySetInnerHTML={{ __html: activeTab.content_body }} >
+                    <h3>{t(`aboutme.${activeTab.id}.subtitulo`)}</h3>
+                    <div id="about_card_desc" className='flex flex-col content-between gap-3' dangerouslySetInnerHTML={{ __html: t(`aboutme.${activeTab.id}.descripcion`) }} >
                     </div>
+                </div>
             </div>
-        </div>
         </div >
 
     )
