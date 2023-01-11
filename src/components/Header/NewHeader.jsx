@@ -107,7 +107,7 @@ export default function NewHeader() {
                                     <TypingAnimationHeader />
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-400 sm:text-center">
-                                    Desarrollador frontend apasionado por la tecnología y la programación
+                                     Desarrollador web apasionado por la tecnología y la programación
                                 </p>
                                 <div className="mt-8 flex gap-x-4 justify-center">
                                     <a
