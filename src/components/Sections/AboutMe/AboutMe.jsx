@@ -14,7 +14,7 @@ function AboutMe() {
                 <div id="about_main" className="flex flex-row items-center gap-20 justify-center flex-wrap-reverse py-5">
                     <div id="about_sidebar" className='flex flex-col gap-16'>
                         <div id="about_foto">
-                            <img src="./img/logo.svg" />
+                            <img src="./img/yo.jpg" />
                         </div>
                         <AboutLinks />
                     </div>
