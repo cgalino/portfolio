@@ -13,7 +13,7 @@ const LanguageSelector = () => {
         i18n.changeLanguage(lang)
     }
     const changeHolaText = () => {
-        if (first > 1) {
+        if (first > 0) {
             let hola = document.querySelector('.typing-animation-hola');
             if (hola) hola.innerHTML = t('header.holaSoy');
         }
