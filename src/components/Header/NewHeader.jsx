@@ -59,7 +59,9 @@ export default function NewHeader() {
                                 </a>
                             ))}
                         </div>
-                        <LanguageSelector />
+                        <div className='hidden lg:flex'>
+                            <LanguageSelector />
+                        </div>
                     </nav>
                     <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                         <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-black px-6 py-6 lg:hidden">
@@ -94,6 +96,9 @@ export default function NewHeader() {
                                             </a>
                                         ))}
                                     </div>
+                                    <div className='flex lg:hidden'>
+                                        <LanguageSelector />
+                                    </div>
                                 </div>
                             </div>
                         </Dialog.Panel>
@@ -115,10 +120,10 @@ export default function NewHeader() {
                                 </div>
                             </div>
                             <div>
-                                <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
+                                <h1 className="text-4xl leading-10 font-bold sm:text-center sm:text-6xl">
                                     <TypingAnimationHeader texts={animationTexts} />
                                 </h1>
-                                <p className="mt-6 text-lg leading-8 text-gray-400 sm:text-center">
+                                <p className="mt-6 text-lg text-gray-400 sm:text-center">
                                     {t('header.descripcion')}
                                 </p>
                                 <div className="mt-8 flex gap-x-4 justify-center">
