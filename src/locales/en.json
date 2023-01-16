@@ -18,12 +18,12 @@
             "1": {
                 "titulo": "Profile",
                 "subtitulo": "Welcome!",
-                "descripcion": "<p>My name is <strong>Carles</strong> and I am 28 years old. I live near Barcelona and currently work as a frontend dev at Promo-soft, a company dedicated to developing technological solutions for Call Centers.< /p><p> For more than 6 years I have used my knowledge developing frontend projects, a subject that little by little has become my passion.</p>"
+                "descripcion": "<p>My name is <strong>Carles</strong> and I am 28 years old. I live near Barcelona and currently work as a frontend dev at Promo-soft, a company dedicated to developing technological solutions for Call Centers.</p><p> For more than 6 years I have used my knowledge developing frontend projects, a subject that little by little has become my passion.</p>"
             },
             "2": {
                 "titulo": "Training",
                 "subtitulo": "Training",
-                "descripcion": "<p>I started studying a CFGM in Microcomputer Systems and Networks<strong>(SMX)</strong>, and then I studied the CFGS in multiplatform application development<strong>(DAM)</strong>.< /p><p> Subsequently, I specialized in a FrontEnd Developer with VUE course at the UAB, however, <i>most of my knowledge was acquired <b>self-taught</b> while working as a developer.</i></p>"
+                "descripcion": "<p>I started studying a CFGM in Microcomputer Systems and Networks<strong>(SMX)</strong>, and then I studied the CFGS in multiplatform application development<strong>(DAM)</strong>.</p><p> Subsequently, I specialized in a FrontEnd Developer with VUE course at the UAB, however, <i>most of my knowledge was acquired <b>self-taught</b> while working as a developer.</i></p>"
             },
             "3": {
                 "titulo": "Experience",
