@@ -23,7 +23,7 @@
             "2": {
                 "titulo": "Formación",
                 "subtitulo": "Formación",
-                "descripcion": "<p>Empecé estudiando un CFGM de Sistemas microinformáticos y redes<strong>(SMX)</strong>, y a continuación cursé el CFGS en desarrollo de aplicaciones multiplataforma<strong>(DAM)</strong>.</p><p> Posteriormente, me especialitcé en un curso de FrontEnd Developer con VUE en la UAB. No obstante, <i>la mayor parte de mi conocimiento la he adquirido de manera <b>autodidacta</b> mientras trabajaba como desarrollador.</i></p>"
+                "descripcion": "<p>Empecé estudiando un CFGM de Sistemas microinformáticos y redes<strong>(SMX)</strong>, y a continuación cursé el CFGS en desarrollo de aplicaciones multiplataforma<strong>(DAM)</strong>.</p><p> Posteriormente, me especialicé en un curso de FrontEnd Developer en la UAB. No obstante, <i>la mayor parte de mi conocimiento la he adquirido de manera <b>autodidacta</b> mientras trabajaba como desarrollador.</i></p>"
             },
             "3": {
                 "titulo": "Experiencia",
@@ -65,7 +65,7 @@
         "hardskills": {
             "1": {
                 "titulo": "Frontend",
-                "descripcion": "Ámbito con el que cuento con mas experiencia y conocimiento, tanto en el desarrollo de aplicaciones web como en el diseño de interfaces"
+                "descripcion": "Ámbito con el que cuento con más experiencia y conocimiento, tanto en el desarrollo de aplicaciones web como en el diseño de interfaces"
             },
             "2": {
                 "titulo": "Backend",
@@ -73,7 +73,7 @@
             },
             "3": {
                 "titulo": "Herramientas",
-                "descripcion": "Uso las herramientas más comunes y me informo de las novedades para estar siempre al dia."
+                "descripcion": "Uso las herramientas más comunes y me informo de las novedades para estar siempre al día."
             },
             "4": {
                 "titulo": "Bases de datos",
@@ -98,7 +98,7 @@
                 "3": {
                     "nombre": "VoIP",
                     "titulo": "Operador IP",
-                    "body": "<p>Portal de gestión para clientes de <b>telefonía IP</b> de Promo-soft.</p><p><i class='text-xs'>Generación y descarga de facturas, historicos de llamadas, envio de faxes y más.</i>"
+                    "body": "<p>Portal de gestión para clientes de <b>telefonía IP</b> de Promo-soft.</p><p><i class='text-xs'>Generación y descarga de facturas, históricos de llamadas, envío de faxes y más.</i>"
                 },
                 "4": {
                     "nombre": "Página de contacto",
