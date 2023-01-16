@@ -60,6 +60,51 @@
                 "titulo": "Trabajo en equipo",
                 "descripcion": "<p>Es indispensable saber trabajar en equipo y compartir el conocimiento para avanzar y prosperar tanto dentro como fuera del ámbito laboral.</p>"
             }
+        },
+        "hardskills": {
+            "1": {
+                "titulo": "Frontend",
+                "descripcion": "Ámbito con el que cuento con mas experiencia y conocimiento, tanto en el desarrollo de aplicaciones web como en el diseño de interfaces"
+            },
+            "2": {
+                "titulo": "Backend",
+                "descripcion": "He trabajado con distintos lenguajes de programación y frameworks para el backend, tanto en entornos de desarrollo como de producción"
+            },
+            "3": {
+                "titulo": "Herramientas",
+                "descripcion": "Uso las herramientas más comunes y me informo de las novedades para estar siempre al dia."
+            },
+            "4": {
+                "titulo": "Bases de datos",
+                "descripcion": "Tengo experiencia con distintas bases de datos, tanto relacionales como no relacionales"
+            }
+        },
+        "projects": {
+            "filtrotecnologia": "Filtro por tecnología",
+            "filtroporproyecto": "Filtro por proyecto",
+            "masinfo": "Más información",
+            "data": {
+                "1": {
+                    "nombre": "GUC",
+                    "titulo": "Gestión unificada de contactos",
+                    "body": "<p>Software <b>CTI</b> diseñado para la automatización del trabajo de un <b>Contact-Center</b></p><i class='text-xs'>Comunicación a través de los canales más demandados</i> "
+                },
+                "2": {
+                    "nombre": "Sorarers",
+                    "titulo": "Proyecto personal en desarrollo",
+                    "body": "<p>App con <b>noticias, foro y más</b> sobre Sorare (Juego de coleccionables de futbol NFT).</p><p><i class='text-xs'>Proyecto personal desarrollado además con Mysql y Express</i></p>"
+                },
+                "3": {
+                    "nombre": "VoIP",
+                    "titulo": "Operador IP",
+                    "body": "<p>Portal de gestión para clientes de <b>telefonía IP</b> de Promo-soft.</p><p><i class='text-xs'>Generación y descarga de facturas, historicos de llamadas, envio de faxes y más.</i>"
+                },
+                "4": {
+                    "nombre": "Página de contacto",
+                    "titulo": "Web Promo-soft",
+                    "body": "<p>Contacto con el cliente desde la web a través de <b>chat, whatsapp, videollamada</b></p><p><i class='text-xs'>La interacción entre el cliente y el agente es posible gracias a GUC</i><p>"
+                }
+            }
         }
     }
 }

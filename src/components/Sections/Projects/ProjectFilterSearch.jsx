@@ -1,9 +1,11 @@
+import { useTranslation } from 'react-i18next';
 
 const ProjectFilterSearch = ({ search, setSearch }) => {
 
     let typingTimer;
     const doneTypingInterval = 350;
     const inputTextFilter = document.getElementById('pf-search');
+    const { t } = useTranslation();
     const resetFilter = () => {
         if (search != '') {
             inputTextFilter.value = '';
@@ -24,7 +26,7 @@ const ProjectFilterSearch = ({ search, setSearch }) => {
                 onKeyDown={() => clearTimeout()}
                 onKeyUp={() => startCountDown()}
                 type="text"
-                placeholder="Filtro por texto"
+                placeholder={t('projects.filtroporproyecto')}
                 defaultValue={search} />
             <i onClick={e => resetFilter()} className={`absolute right-0 top-0 mt-4 mr-4 fas text-gray-400 " ${search.length > 0 ? "fa-times cursor-pointer" : "fa-search"}`}></i>
         </div>

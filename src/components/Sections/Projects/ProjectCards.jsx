@@ -1,12 +1,44 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import ProjectCard from './ProjectCard';
+import { useTranslation } from 'react-i18next';
+import i18next from "i18next";
 
 import data from '../../../data/ProjectsData'
 
 
 const ProjectsCards = ({ filters }) => {
 
-        const pd = data.map(obj => ({ ...obj, searchText: `${obj.name} ${obj.title} ${obj.body}`.toUpperCase() }))
+        const { t, i18n } = useTranslation();
+
+        const transformData = () => {
+                let newData = data.map(obj => {
+                        return {
+                                ...obj,
+                                name: t(`projects.data.${obj.key}.nombre`),
+                                title: t(`projects.data.${obj.key}.titulo`),
+                                body: t(`projects.data.${obj.key}.body`),
+                                searchText: `${t(`projects.data.${obj.key}.nombre`)} ${t(`projects.data.${obj.key}.titulo`)} ${t(`projects.data.${obj.key}.body`)}`.toUpperCase()
+                        }
+                });
+                return newData;
+        }
+
+        const [pd, setPd] = useState(transformData());
+
+        const handleLanguageChanged = useCallback(() => {
+                setPd(transformData());
+        }, []);
+
+        useEffect(() => {
+                filterProjects(pd);
+        }, [pd]);
+
+        useEffect(() => {
+                i18n.on('languageChanged', handleLanguageChanged);
+                return () => {
+                        i18n.off('languageChanged', handleLanguageChanged);
+                };
+        }, [handleLanguageChanged]);
 
         const [filteredProjects, setFilteredProjects] = useState(pd);
         const hasTech = (tech) => filters.techs.indexOf(tech) >= 0;

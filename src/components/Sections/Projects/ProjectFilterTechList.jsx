@@ -2,10 +2,13 @@ import { Fragment, useEffect } from 'react';
 
 import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
+import { useTranslation } from 'react-i18next';
 
 import techs from '../../../data/techs'
 
 function ProjectFilterTechList({ tech, setTechs }) {
+
+    const { t } = useTranslation();
 
     let techNames = tech.map((t) => techs.filter((e) => t == e.id).map(x => x.name)).join(', ');
 
@@ -24,7 +27,7 @@ function ProjectFilterTechList({ tech, setTechs }) {
         <Listbox value={tech} onChange={(e) => techListChange(e)} className="relative min-w-fit text-gray-100 bg-mid-light-transparent border-2 rounded-xl border-gray-600 py-2 w-full md:w-96">
             <div className="mt-1">
                 <Listbox.Button className="w-full h-8 pl-3 pr-10 text-left sm:text-sm">
-                    <span className={!techNames && "text-gray-400" + " block truncate"}>{techNames || 'Filtro por tecnología'}</span>
+                    <span className={!techNames && "text-gray-400" + " block truncate"}>{techNames || t('projects.filtrotecnologia')}</span>
                     <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center mr-3">
                         <ChevronUpDownIcon
                             className="h-5 w-5 text-gray-400"

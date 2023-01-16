@@ -1,5 +1,5 @@
-const HardSkillsButton = ({ view, setView, skill }) => {
-    const { id, title } = skill;
+const HardSkillsButton = ({ view, setView, skill, title }) => {
+    const { id } = skill;
     return (
         <li>
             <button

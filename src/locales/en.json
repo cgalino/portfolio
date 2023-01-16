@@ -42,10 +42,10 @@
             },
             "2": {
                 "titulo": "Flexibility",
-                "descripcion": "<p>I understand the needs of the group and I accept the proposed changes in order to <b>improve and advance</b> in any aspect.</p>"
+                "descripcion": "<p>I understand the needs of the group and I accept the proposed changes in order to <b>improve and advance</b>.</p>"
             },
             "3": {
-                "titulo": "Enthusiasm and motivation",
+                "titulo": "Motivation",
                 "descripcion": "<p>Technology advances very quickly and I always live with the concern of learning more skills to improve.</p>"
             },
             "4": {
@@ -54,11 +54,56 @@
             },
             "5": {
                 "titulo": "Resilience",
-                "descripcion": "<p>Resilience and perseverance are very active factors in development. Looking for alternatives and resolving conflicts under pressure is paramount.</p>"
+                "descripcion": "<p>Resilience is something to look after. Looking for alternatives and resolving conflicts under pressure.</p>"
             },
             "6": {
                 "titulo": "Teamwork",
-                "descripcion": "<p>It is essential to know how to work as a team and share knowledge to advance and prosper both inside and outside the workplace.</p>"
+                "descripcion": "<p>Work as a team and share knowledge to advance and prosper both inside and outside the workplace.</p>"
+            }
+        },
+        "hardskills": {
+            "1": {
+                "titulo": "Frontend",
+                "descripcion": "Area in which I have the most experience and knowledge, both in the development of web applications and in the design of interfaces"
+            },
+            "2": {
+                "titulo": "Backend",
+                "descripcion": "I have worked with different programming languages and frameworks for the backend, both in development and production environments"
+            },
+            "3": {
+                "titulo": "Tools",
+                "descripcion": "I use the most common tools and find out what's new to always be up to date."
+            },
+            "4": {
+                "titulo": "Databases",
+                "descripcion": "I have experience with different databases, both relational and non-relational"
+            }
+        },
+        "projects": {
+            "filtrotecnologia": "Filter by technology",
+            "filtroporproyecto": "Filter by project",
+            "masinfo": "Learn more",
+            "data": {
+                "1": {
+                    "nombre": "GUC",
+                    "titulo": "Unified contact management",
+                    "body": "<p>Software <b>CTI</b> designed to automate the work of a <b>Contact-Center</b></p><i class='text-xs'>Communication through the most demanded channels</i> "
+                },
+                "2": {
+                    "nombre": "Sorarers",
+                    "titulo": "Personal project under development",
+                    "body": "<p>App with <b>news, forum and more</b> about Sorare (Collectible NFT Soccer Game).</p><p><i class='text-xs'> Personal project also developed with Mysql and Express</i></p>"
+                },
+                "3": {
+                    "nombre": "VoIP",
+                    "titulo": "IP Operator",
+                    "body": "<p>Management portal for Promo-soft <b>IP telephony</b> clients.</p><p><i class='text-xs'>Generation and download of invoices , call histories, sending faxes and more.</i>"
+                },
+                "4": {
+                    "nombre": "Contact Page",
+                    "titulo": "Web Promo-soft",
+                    "body": "<p>Contact with the client from the web through <b>chat, whatsapp, video call</b></p><p><i class='text-xs'>The interaction between the client and the agent is possible thanks to GUC</i><p>"
+                }
             }
         }
     }

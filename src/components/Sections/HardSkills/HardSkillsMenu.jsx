@@ -1,15 +1,18 @@
 import { useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import HardSkillsButton from './HardSkillsButtons';
 import data from '../../../data/HardSkillsData';
 
 const MenuHardSkills = ({ view, setView }) => {
+
+    const { t } = useTranslation();
     const bar = useRef(null);
 
     useEffect(() => {
         setBar(view, bar);
     }, [view]);
 
-    const HardSkillButtons = data.map((e) => <HardSkillsButton key={e.id} view={view} setView={setView} skill={e} />)
+    const HardSkillButtons = data.map((e) => <HardSkillsButton key={e.id} view={view} setView={setView} skill={e} title={t(`hardskills.${e.id}.titulo`) } />)
     return (
         <nav className="skills__menu">
             <ul>
