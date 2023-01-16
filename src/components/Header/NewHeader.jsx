@@ -134,7 +134,8 @@ export default function NewHeader() {
                                         {t('header.conoceme')}
                                     </a>
                                     <a
-                                        title={t('header.descargarCV')} href="CarlesGalinoCV.pdf"
+                                        id="downloadCVLink"
+                                        title={t('header.descargarCV')} href={t('header.cvFileName')}
                                         className="inline-block truncate rounded-lg bg-gradient-to-r text-sm from-purple-600 to-blue-600 drop-shadow-md  shadow-cla-blue px-4 py-1.5 text-base shadow-xl leading-7 text-white hover:bg-indigo-700"
                                     >
                                         {t('header.descargarCV')}

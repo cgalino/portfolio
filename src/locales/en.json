@@ -5,7 +5,8 @@
             "holaSoy": "Hi! It's ",
             "descripcion": "Web developer passionate about technology and programming",
             "conoceme": "About me",
-            "descargarCV": "Download CV"
+            "descargarCV": "Download CV",
+            "cvFileName": "CarlesGalino_EN.pdf"
         },
         "titulos": {
             "1": "About me",

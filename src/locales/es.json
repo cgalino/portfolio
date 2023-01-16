@@ -5,7 +5,8 @@
             "holaSoy": "¡Hola! Soy ",
             "descripcion": "Desarrollador web apasionado por la tecnología y la programación",
             "conoceme": "Conóceme",
-            "descargarCV": "Descargar CV"
+            "descargarCV": "Descargar CV",
+            "cvFileName": "CarlesGalino_ES.pdf"
         },
         "titulos": {
             "1": "Conóceme",
