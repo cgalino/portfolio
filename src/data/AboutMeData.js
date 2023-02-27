@@ -4,28 +4,28 @@ const data = [
         "fa_icon": "fa-child-reaching",
         "tab_title": "Perfil",
         "content_title": "¡Bienvenido/a!",
-        "content_body": "<p>Mi nombre es <strong>Carles</strong> y tengo 28 años. Resido cerca de Barcelona y actualmente trabajo como frontend dev en Promo-soft, empresa dedicada a desarrollar soluciones tecnológicas para Call Centers.</p><p> Durante más de 6 años he desempeñado mis conocimientos desarrollando proyectos frontend, materia que poco a poco se ha convertido en mi pasión.</p>"
+        "content_body": "<p>Mi nombre es <strong>Carles</strong>, tengo 28 años y  vivo cerca de Barcelona.  Actualmente, me desempeño como desarrollador frontend en Promo-soft, una empresa especializada en soluciones tecnológicas para call centers.</p><p>Me apasiona trabajar en la creación de soluciones estéticas y funcionales, que mejoren la experiencia de usuario.</p>"
     },
     {
         "id": "2",
         "fa_icon": "fa-user-graduate",
         "tab_title": "Formación",
         "content_title": "Formación",
-        "content_body": "<p>Empecé estudiando un CFGM de Sistemas microinformáticos y redes<strong>(SMX)</strong>, y a continuación cursé el CFGS en desarrollo de aplicaciones multiplataforma<strong>(DAM)</strong>.</p><p> Posteriormente, me especialitcé en un curso de FrontEnd Developer con VUE en la UAB. No obstante, <i>la mayor parte de mi conocimiento la he adquirido de manera <b>autodidacta</b> mientras trabajaba como desarrollador.</i></p>"
+        "content_body": "<p>Empecé mi formación académica con un CFGM en Sistemas Microinformáticos y Redes (SMX), seguido del CFGS en Desarrollo de Aplicaciones Multiplataforma (DAM). Luego, decidí enfocarme en el desarrollo frontend y realicé un curso especializado en Frontend Developer en la UAB. </p><p><i>A pesar de esto, gran parte de mi conocimiento lo adquirí de manera autodidacta mientras trabajaba como desarrollador.</i></p>"
     },
     {
         "id": "3",
         "fa_icon": "fa-code",
         "tab_title": "Experiencia",
         "content_title": "Experiencia",
-        "content_body": "<p>Durante mis 6 años de experiencia en <strong>Promo-Soft</strong> he llevado a cabo numerosos proyectos front de manera autosuficiente.</p><p>He aprovechado para crecer, nutrirme de conocimiento y madurar en mi labor como frontend dev.</p>"
+        "content_body": "<p>Durante los últimos 6 años, he desempeñado el papel de único desarrollador frontend en nuestra empresa, lo que me ha brindado la oportunidad de ser responsable de cada uno de los proyectos en los que he trabajado.</p><p> Esta experiencia ha sido fundamental para mi crecimiento y desarrollo profesional, ya que me ha permitido enfrentar desafíos y aprender de mis propios errores.</p>"
     },
     {
         "id": "4",
         "fa_icon": "fa-flag-checkered",
         "tab_title": "Ambición",
         "content_title": "Inquietudes y ambición",
-         "content_body": "<p>En cuanto a ambición y perspectiva de futuro me caracteriza la superación personal, el compartir conocimiento y construir junto al equipo proyectos ilusionantes.</p><p></p>"
+         "content_body": "<p>Uno de mis principales objetivos es seguir creciendo en mi carrera profesional, lo cual implica continuar aprendiendo y actualizando mis conocimientos en el campo del desarrollo frontend. Me gustaría seguir expandiendo mis habilidades y adquirir experiencia en otras áreas relacionadas, como el desarrollo de aplicaciones móviles y el diseño UX/UI.</p><p></p>"
     }
 ]
 

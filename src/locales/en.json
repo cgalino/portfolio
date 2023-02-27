@@ -18,28 +18,28 @@
             "1": {
                 "titulo": "Profile",
                 "subtitulo": "Welcome!",
-                "descripcion": "<p>My name is <strong>Carles</strong> and I am 28 years old. I live near Barcelona and currently work as a frontend dev at Promo-soft, a company dedicated to developing technological solutions for Call Centers.</p><p> For more than 6 years I have used my knowledge developing frontend projects, a subject that little by little has become my passion.</p>"
+                "descripcion": "<p>My name is <strong>Carles</strong>, I am 28 years old and I live near Barcelona. Currently, I work as a frontend developer at Promo-soft, a company specialized in technological solutions for call centers .</p><p>I am passionate about working on the creation of aesthetic and functional solutions that improve the user experience.</p>"
             },
             "2": {
                 "titulo": "Training",
                 "subtitulo": "Training",
-                "descripcion": "<p>I started studying a CFGM in Microcomputer Systems and Networks<strong>(SMX)</strong>, and then I studied the CFGS in multiplatform application development<strong>(DAM)</strong>.</p><p> Subsequently, I specialized in a FrontEnd Developer with VUE course at the UAB, however, <i>most of my knowledge was acquired <b>self-taught</b> while working as a developer.</i></p>"
+                "descripcion": "<p>I started my academic training with a CFGM in Microcomputer Systems and Networks (SMX), followed by the CFGS in Multiplatform Application Development (DAM). Then, I decided to focus on frontend development and took a specialized course in Frontend Developer at the UAB. </p><p><i>Despite this, much of my knowledge was acquired self-taught while working as a developer.</i></p>"
             },
             "3": {
                 "titulo": "Experience",
                 "subtitulo": "Experience",
-                "descripcion": "<p>During my 6 years of experience at <strong>Promo-Soft</strong> I have carried out numerous front-end projects in a self-sufficient way.</p><p>I have taken the opportunity to grow, nourish myself with knowledge and mature in my work as a frontend dev.</p>"
+                "descripcion": "<p>For the last 6 years, I have been in the role of the only frontend developer in our company, which has given me the opportunity to be responsible for each of the projects I have worked on.</ p><p> This experience has been essential for my professional growth and development, as it has allowed me to face challenges and learn from my own mistakes.</p>"
             },
             "4": {
                 "titulo": "Ambition",
                 "subtitulo": "Concerns and ambition",
-                "descripcion": "<p>In terms of ambition and future perspective, I am characterized by personal improvement, sharing knowledge and building exciting projects together with the team.</p><p></p>"
+                "descripcion": "<p>One of my main objectives is to continue growing in my professional career, which implies continuing to learn and update my knowledge in the field of frontend development. I would like to continue expanding my skills and gain experience in other related areas such as mobile app development.</p><p></p>"
             }
         },
         "softskills": {
             "1": {
                 "titulo": "Commitment",
-                "descripcion": "<p>The <b>commitment, loyalty and honesty</b> are my values and principles thanks to the education obtained.</p>"
+                "descripcion": "<p>The <b>commitment, loyalty and honesty</b> are my values ​​and principles thanks to the education obtained.</p>"
             },
             "2": {
                 "titulo": "Flexibility",

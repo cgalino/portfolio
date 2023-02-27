@@ -18,40 +18,40 @@
             "1": {
                 "titulo": "Perfil",
                 "subtitulo": "¡Bienvenido/a!",
-                "descripcion": "<p>Mi nombre es <strong>Carles</strong> y tengo 28 años. Resido cerca de Barcelona y actualmente trabajo como frontend dev en Promo-soft, empresa dedicada a desarrollar soluciones tecnológicas para Call Centers.</p><p> Durante más de 6 años he desempeñado mis conocimientos desarrollando proyectos frontend, materia que poco a poco se ha convertido en mi pasión.</p>"
+                "descripcion": "<p>Mi nombre es <strong>Carles</strong>, tengo 28 años y  vivo cerca de Barcelona.  Actualmente, me desempeño como desarrollador frontend en Promo-soft, una empresa especializada en soluciones tecnológicas para call centers.</p><p>Me apasiona trabajar en la creación de soluciones estéticas y funcionales, que mejoren la experiencia de usuario.</p>"
             },
             "2": {
                 "titulo": "Formación",
                 "subtitulo": "Formación",
-                "descripcion": "<p>Empecé estudiando un CFGM de Sistemas microinformáticos y redes<strong>(SMX)</strong>, y a continuación cursé el CFGS en desarrollo de aplicaciones multiplataforma<strong>(DAM)</strong>.</p><p> Posteriormente, me especialicé en un curso de FrontEnd Developer en la UAB. No obstante, <i>la mayor parte de mi conocimiento la he adquirido de manera <b>autodidacta</b> mientras trabajaba como desarrollador.</i></p>"
+                "descripcion": "<p>Empecé mi formación académica con un CFGM en Sistemas Microinformáticos y Redes (SMX), seguido del CFGS en Desarrollo de Aplicaciones Multiplataforma (DAM). Luego, decidí enfocarme en el desarrollo frontend y realicé un curso especializado en Frontend Developer en la UAB. </p><p><i>A pesar de esto, gran parte de mi conocimiento lo adquirí de manera autodidacta mientras trabajaba como desarrollador.</i></p>"
             },
             "3": {
                 "titulo": "Experiencia",
                 "subtitulo": "Experiencia",
-                "descripcion": "<p>Durante mis 6 años de experiencia en <strong>Promo-Soft</strong> he llevado a cabo numerosos proyectos front de manera autosuficiente.</p><p>He aprovechado para crecer, nutrirme de conocimiento y madurar en mi labor como frontend dev.</p>"
+                "descripcion": "<p>Durante los últimos 6 años, he desempeñado el papel de único desarrollador frontend en nuestra empresa, lo que me ha brindado la oportunidad de ser responsable de cada uno de los proyectos en los que he trabajado.</p><p> Esta experiencia ha sido fundamental para mi crecimiento y desarrollo profesional, ya que me ha permitido enfrentar desafíos y aprender de mis propios errores.</p>"
             },
             "4": {
                 "titulo": "Ambición",
                 "subtitulo": "Inquietudes y ambición",
-                "descripcion": "<p>En cuanto a ambición y perspectiva de futuro me caracteriza la superación personal, el compartir conocimiento y construir junto al equipo proyectos ilusionantes.</p><p></p>"
+                "descripcion": "<p>Uno de mis principales objetivos es seguir creciendo en mi carrera profesional, lo cual implica continuar aprendiendo y actualizando mis conocimientos en el campo del desarrollo frontend. Me gustaría seguir expandiendo mis habilidades y adquirir experiencia en otras áreas relacionadas, como el desarrollo de aplicaciones móviles.</p><p></p>"
             }
         },
         "softskills": {
             "1": {
                 "titulo": "Compromiso",
-                "descripcion": "<p>El <b>compromiso, la lealtad y la honestidad</b> son mis valores y principios gracias a la educación obtenida.</p>"
+                "descripcion": "<p>Mi educación me ha brindado sólidos valores y principios como el compromiso, la lealtad y la honestidad.</p>"
             },
             "2": {
                 "titulo": "Flexibilidad",
-                "descripcion": "<p>Entiendo las necesidades del grupo y acepto los cambios propuestos con tal de <b>mejorar y avanzar</b> en cualquier aspecto.</p>"
+                "descripcion": "<p>Tengo una actitud abierta y adaptable ante las nuevas situaciones y desafíos que se presentan en el ámbito laboral.</p>"
             },
             "3": {
                 "titulo": "Entusiasmo y motivación",
-                "descripcion": "<p>La tecnología avanza muy rápido y vivo siempre con la inquietud de aprender más competencias para mejorar.</p>"
+                "descripcion": "<p>Centrado en aprender y desarrollar mis habilidades en el uso de las últimas tecnologías y herramientas disponibles. </p>"
             },
             "4": {
                 "titulo": "Creatividad",
-                "descripcion": "<p>Como desarrollador frontend he adquirido cierta habilidad para <b>identificar necesidades</b> a nivel de UI que los clientes puedan tener.</p>"
+                "descripcion": "<p>Me siento muy cómodo trabajando con los clientes para entender sus requerimientos y traducirlos en soluciones técnicas efectivas.</p>"
             },
             "5": {
                 "titulo": "Resiliencia",
@@ -59,17 +59,17 @@
             },
             "6": {
                 "titulo": "Trabajo en equipo",
-                "descripcion": "<p>Es indispensable saber trabajar en equipo y compartir el conocimiento para avanzar y prosperar tanto dentro como fuera del ámbito laboral.</p>"
+                "descripcion": "<p>El trabajo en equipo permite a los miembros compartir conocimientos y aprender unos de otros, lo que aumenta la calidad del trabajo.</p>"
             }
         },
         "hardskills": {
             "1": {
                 "titulo": "Frontend",
-                "descripcion": "Ámbito con el que cuento con más experiencia y conocimiento, tanto en el desarrollo de aplicaciones web como en el diseño de interfaces"
+                "descripcion": "Ámbito con el que cuento con más experiencia y conocimiento."
             },
             "2": {
                 "titulo": "Backend",
-                "descripcion": "He trabajado con distintos lenguajes de programación y frameworks para el backend, tanto en entornos de desarrollo como de producción"
+                "descripcion": "He trabajado con distintos lenguajes de programación y frameworks para el backend."
             },
             "3": {
                 "titulo": "Herramientas",
