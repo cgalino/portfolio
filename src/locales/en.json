@@ -104,6 +104,11 @@
                     "nombre": "Contact Page",
                     "titulo": "Web Promo-soft",
                     "body": "<p>Contact with the client from the web through <b>chat, whatsapp, video call</b></p><p><i class='text-xs'>The interaction between the client and the agent is possible thanks to GUC</i><p>"
+                },
+                "5": {
+                    "nombre": "Products", 
+                    "titulo": "Promo-soft shop",
+                    "body": "<p>Online store with <b>payment gateway</b> and <b>management of orders</b></p><p><i class='text-xs'>The client can buy the products and services offered by Promo-soft</i></p>"
                 }
             }
         }

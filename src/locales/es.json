@@ -104,6 +104,11 @@
                     "nombre": "Página de contacto",
                     "titulo": "Web Promo-soft",
                     "body": "<p>Contacto con el cliente desde la web a través de <b>chat, whatsapp, videollamada</b></p><p><i class='text-xs'>La interacción entre el cliente y el agente es posible gracias a GUC</i><p>"
+                },
+                "5": {
+                    "nombre": "Products",
+                    "titulo": "Tienda Promo-soft",
+                    "body": "<p>Portal de gestión para clientes de <b>Promo-soft</b>.</p><p><i class='text-xs'>Gestión de suscripciones a productos.</i>"
                 }
             }
         }

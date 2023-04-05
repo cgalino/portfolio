@@ -23,13 +23,11 @@ const data = [
         link: 'https://www.sorarers.com',
         title: 'Proyecto personal en desarrollo',
         body: '<p>App con <b>noticias, foro y más</b> sobre Sorare (Juego de coleccionables de futbol NFT).</p><p><i class="text-xs">Proyecto personal desarrollado además con Mysql y Express</i></p>',
-        techs: [1, 3, 7],
+        techs: [1, 5, 7],
         images: [
-            'img/projects/SORARERS/1.jpg',
-            'img/projects/SORARERS/2.jpg',
-            'img/projects/SORARERS/3.jpg',
-            'img/projects/SORARERS/4.jpg',
-            'img/projects/SORARERS/5.png',
+            'img/projects/SORARERS/1.png',
+            'img/projects/SORARERS/2.png',
+            'img/projects/SORARERS/3.png',
         ]
     },
     {
@@ -54,6 +52,20 @@ const data = [
         images: [
             'img/projects/WEBPROMO/1.png',
             'img/projects/WEBPROMO/2.png'
+        ]
+    },
+    {
+        key: 5,
+        name: 'Products Promo-soft',
+        link: 'https://products.promo-soft.eu',
+        title: 'Tienda Promo-soft',
+        body: '<p>Portal de gestión para clientes de <b>Promo-soft</b>.</p><p><i class="text-xs">Gestión de suscripciones a productos.</i>',
+        techs: [1, 5, 6],
+        images: [
+            'img/projects/PRODUCTS/1.png',
+            'img/projects/PRODUCTS/2.png',
+            'img/projects/PRODUCTS/3.png',
+            'img/projects/PRODUCTS/4.png'
         ]
     }
 ];

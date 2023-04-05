@@ -9,7 +9,7 @@ const LanguageSelector = () => {
     const { t, i18n } = useTranslation()
 
     const changeLanguageHandler = (lang) => {
-        localStorage.setItem('i18nextLng', language);
+        localStorage.setItem('i18nextLng', lang);
         i18n.changeLanguage(lang)
     }
     const changeHolaText = () => {
