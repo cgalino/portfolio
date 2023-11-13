@@ -22,7 +22,9 @@ const imgs = {
 	"db2": 'img/hardSkills/DATABASE/db2.svg',
 	"mongo": 'img/hardSkills/DATABASE/mongo.svg',
 	"mysql": 'img/hardSkills/DATABASE/mysql.svg',
-	"sqlite": 'img/hardSkills/DATABASE/sqlite.png'
+	"sqlite": 'img/hardSkills/DATABASE/sqlite.png',
+	"nextjs": 'img/hardSkills/TOOLS/nextjs.svg',
+	"typescript": 'img/hardSkills/TOOLS/typescript.png',
 }
 
 
@@ -35,7 +37,6 @@ const data = [{
 	images: [
 		{ img: imgs.html, text: 'HTML' },
 		{ img: imgs.css, text: 'CSS' },
-		{ img: imgs.js, text: 'JavaScript' },
 		{ img: imgs.react, text: 'React' },
 		{ img: imgs.tailwind, text: 'Tailwind' },
 		{ img: imgs.bootstrap, text: 'Bootstrap' },
@@ -63,6 +64,8 @@ const data = [{
 		{ img: imgs.vite, text: 'Vite' },
 		{ img: imgs.npm, text: 'NPM' },
 		{ img: imgs.jenkins, text: 'Jenkins' },
+		{ img: imgs.nextjs, text: 'NextJS' },
+		{ img: imgs.typescript, text: 'TypeScript' },
 	],
 },
 {

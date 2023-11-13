@@ -5,7 +5,9 @@ const techs = [
     { id: 4, name: 'Material', clase: 'from-green-400 via-green-500 to-green-600 focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80' , url: 'https://mui.com/'},
     { id: 5, name: 'Tailwind', clase: 'from-teal-400 via-teal-500 to-teal-600 focus:ring-teal-300 dark:focus:ring-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80' , url: 'https://tailwindcss.com/'},
     { id: 6, name: 'Java', clase: ' from-amber-400 via-amber-500 to-amber-600 focus:ring-amber-300 dark:focus:ring-amber-800 shadow-lg shadow-amber-500/50 dark:shadow-lg dark:shadow-amber-800/80', url: 'https://www.java.com/es/' },
-    { id: 7, name: 'Node', clase: ' from-red-400 via-red-500 to-red-600 focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80', url: 'https://nodejs.org/es/' }
+    { id: 7, name: 'Node', clase: ' from-red-400 via-red-500 to-red-600 focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80', url: 'https://nodejs.org/es/' },
+    { id: 8, name: 'NextJs', clase: ' from-orange-400 via-orange-500 to-orange-600 focus:ring-orange-300 dark:focus:ring-orange-800 shadow-lg shadow-orange-500/50 dark:shadow-lg dark:shadow-orange-800/80', url: 'https://nextjs.org/' },
+    { id: 9, name: 'TypeScript', clase: ' from-blue-400 via-blue-500 to-blue-600 focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80', url: 'https://www.typescriptlang.org/' },
 ]
 
 export default techs;

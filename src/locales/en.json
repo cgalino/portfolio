@@ -1,116 +1,121 @@
 {
-    "translation": {
-        "header": {
-            "hola": "Hi!",
-            "holaSoy": "Hi! It's ",
-            "descripcion": "Web developer passionate about technology and programming",
-            "conoceme": "About me",
-            "descargarCV": "Download CV",
-            "cvFileName": "CarlesGalino_EN.pdf"
+  "translation": {
+    "header": {
+      "hola": "Hi!",
+      "holaSoy": "Hi! It's ",
+      "descripcion": "Web developer passionate about technology and programming",
+      "conoceme": "About me",
+      "descargarCV": "Download CV",
+      "cvFileName": "CarlesGalino_EN.pdf"
+    },
+    "titulos": {
+      "1": "About me",
+      "2": "Soft skills",
+      "3": "Hard skills",
+      "4": "Projects"
+    },
+    "aboutme": {
+      "1": {
+        "titulo": "Profile",
+        "subtitulo": "Welcome!",
+        "descripcion": "<p>My name is <strong>Carles</strong>, I am 28 years old and I live near Barcelona. Currently, I work as a frontend developer at Promo-soft, a company specialized in technological solutions for call centers .</p><p>I am passionate about working on the creation of aesthetic and functional solutions that improve the user experience.</p>"
+      },
+      "2": {
+        "titulo": "Training",
+        "subtitulo": "Training",
+        "descripcion": "<p>I started my academic training with a CFGM in Microcomputer Systems and Networks (SMX), followed by the CFGS in Multiplatform Application Development (DAM). Then, I decided to focus on frontend development and took a specialized course in Frontend Developer at the UAB. </p><p><i>Despite this, much of my knowledge was acquired self-taught while working as a developer.</i></p>"
+      },
+      "3": {
+        "titulo": "Experience",
+        "subtitulo": "Experience",
+        "descripcion": "<p>For the last 6 years, I have been in the role of the only frontend developer in our company, which has given me the opportunity to be responsible for each of the projects I have worked on.</ p><p> This experience has been essential for my professional growth and development, as it has allowed me to face challenges and learn from my own mistakes.</p>"
+      },
+      "4": {
+        "titulo": "Ambition",
+        "subtitulo": "Concerns and ambition",
+        "descripcion": "<p>One of my main objectives is to continue growing in my professional career, which implies continuing to learn and update my knowledge in the field of frontend development. I would like to continue expanding my skills and gain experience in other related areas such as mobile app development.</p><p></p>"
+      }
+    },
+    "softskills": {
+      "1": {
+        "titulo": "Commitment",
+        "descripcion": "<p>The <b>commitment, loyalty and honesty</b> are my values ​​and principles thanks to the education obtained.</p>"
+      },
+      "2": {
+        "titulo": "Flexibility",
+        "descripcion": "<p>I understand the needs of the group and I accept the proposed changes in order to <b>improve and advance</b>.</p>"
+      },
+      "3": {
+        "titulo": "Motivation",
+        "descripcion": "<p>Technology advances very quickly and I always live with the concern of learning more skills to improve.</p>"
+      },
+      "4": {
+        "titulo": "Creativity",
+        "descripcion": "<p>As a frontend developer I have acquired some ability to <b>identify UI needs</b> that clients may have.</p>"
+      },
+      "5": {
+        "titulo": "Resilience",
+        "descripcion": "<p>Resilience is something to look after. Looking for alternatives and resolving conflicts under pressure.</p>"
+      },
+      "6": {
+        "titulo": "Teamwork",
+        "descripcion": "<p>Work as a team and share knowledge to advance and prosper both inside and outside the workplace.</p>"
+      }
+    },
+    "hardskills": {
+      "1": {
+        "titulo": "Frontend",
+        "descripcion": "Area in which I have the most experience and knowledge, both in the development of web applications and in the design of interfaces"
+      },
+      "2": {
+        "titulo": "Backend",
+        "descripcion": "I have worked with different programming languages and frameworks for the backend, both in development and production environments"
+      },
+      "3": {
+        "titulo": "Tools",
+        "descripcion": "I use the most common tools and find out what's new to always be up to date."
+      },
+      "4": {
+        "titulo": "Databases",
+        "descripcion": "I have experience with different databases, both relational and non-relational"
+      }
+    },
+    "projects": {
+      "filtrotecnologia": "Filter by technology",
+      "filtroporproyecto": "Filter by project",
+      "masinfo": "Learn more",
+      "data": {
+        "1": {
+          "nombre": "GUC",
+          "titulo": "Unified contact management",
+          "body": "<p>Software <b>CTI</b> designed to automate the work of a <b>Contact-Center</b></p><i class='text-xs'>Communication through the most demanded channels</i> "
         },
-        "titulos": {
-            "1": "About me",
-            "2": "Soft skills",
-            "3": "Hard skills",
-            "4": "Projects"
+        "2": {
+          "nombre": "Sorarers",
+          "titulo": "Personal project under development",
+          "body": "<p>App with <b>news, forum and more</b> about Sorare (Collectible NFT Soccer Game).</p><p><i class='text-xs'> Personal project also developed with Mysql and Express</i></p>"
         },
-        "aboutme": {
-            "1": {
-                "titulo": "Profile",
-                "subtitulo": "Welcome!",
-                "descripcion": "<p>My name is <strong>Carles</strong>, I am 28 years old and I live near Barcelona. Currently, I work as a frontend developer at Promo-soft, a company specialized in technological solutions for call centers .</p><p>I am passionate about working on the creation of aesthetic and functional solutions that improve the user experience.</p>"
-            },
-            "2": {
-                "titulo": "Training",
-                "subtitulo": "Training",
-                "descripcion": "<p>I started my academic training with a CFGM in Microcomputer Systems and Networks (SMX), followed by the CFGS in Multiplatform Application Development (DAM). Then, I decided to focus on frontend development and took a specialized course in Frontend Developer at the UAB. </p><p><i>Despite this, much of my knowledge was acquired self-taught while working as a developer.</i></p>"
-            },
-            "3": {
-                "titulo": "Experience",
-                "subtitulo": "Experience",
-                "descripcion": "<p>For the last 6 years, I have been in the role of the only frontend developer in our company, which has given me the opportunity to be responsible for each of the projects I have worked on.</ p><p> This experience has been essential for my professional growth and development, as it has allowed me to face challenges and learn from my own mistakes.</p>"
-            },
-            "4": {
-                "titulo": "Ambition",
-                "subtitulo": "Concerns and ambition",
-                "descripcion": "<p>One of my main objectives is to continue growing in my professional career, which implies continuing to learn and update my knowledge in the field of frontend development. I would like to continue expanding my skills and gain experience in other related areas such as mobile app development.</p><p></p>"
-            }
+        "3": {
+          "nombre": "VoIP",
+          "titulo": "IP Operator",
+          "body": "<p>Management portal for Promo-soft <b>IP telephony</b> clients.</p><p><i class='text-xs'>Generation and download of invoices , call histories, sending faxes and more.</i>"
         },
-        "softskills": {
-            "1": {
-                "titulo": "Commitment",
-                "descripcion": "<p>The <b>commitment, loyalty and honesty</b> are my values ​​and principles thanks to the education obtained.</p>"
-            },
-            "2": {
-                "titulo": "Flexibility",
-                "descripcion": "<p>I understand the needs of the group and I accept the proposed changes in order to <b>improve and advance</b>.</p>"
-            },
-            "3": {
-                "titulo": "Motivation",
-                "descripcion": "<p>Technology advances very quickly and I always live with the concern of learning more skills to improve.</p>"
-            },
-            "4": {
-                "titulo": "Creativity",
-                "descripcion": "<p>As a frontend developer I have acquired some ability to <b>identify UI needs</b> that clients may have.</p>"
-            },
-            "5": {
-                "titulo": "Resilience",
-                "descripcion": "<p>Resilience is something to look after. Looking for alternatives and resolving conflicts under pressure.</p>"
-            },
-            "6": {
-                "titulo": "Teamwork",
-                "descripcion": "<p>Work as a team and share knowledge to advance and prosper both inside and outside the workplace.</p>"
-            }
+        "4": {
+          "nombre": "Contact Page",
+          "titulo": "Web Promo-soft",
+          "body": "<p>Contact with the client from the web through <b>chat, whatsapp, video call</b></p><p><i class='text-xs'>The interaction between the client and the agent is possible thanks to GUC</i><p>"
         },
-        "hardskills": {
-            "1": {
-                "titulo": "Frontend",
-                "descripcion": "Area in which I have the most experience and knowledge, both in the development of web applications and in the design of interfaces"
-            },
-            "2": {
-                "titulo": "Backend",
-                "descripcion": "I have worked with different programming languages and frameworks for the backend, both in development and production environments"
-            },
-            "3": {
-                "titulo": "Tools",
-                "descripcion": "I use the most common tools and find out what's new to always be up to date."
-            },
-            "4": {
-                "titulo": "Databases",
-                "descripcion": "I have experience with different databases, both relational and non-relational"
-            }
+        "5": {
+          "nombre": "Products",
+          "titulo": "Promo-soft shop",
+          "body": "<p>Online store with <b>payment gateway</b> and <b>management of orders</b></p><p><i class='text-xs'>The client can buy the products and services offered by Promo-soft</i></p>"
         },
-        "projects": {
-            "filtrotecnologia": "Filter by technology",
-            "filtroporproyecto": "Filter by project",
-            "masinfo": "Learn more",
-            "data": {
-                "1": {
-                    "nombre": "GUC",
-                    "titulo": "Unified contact management",
-                    "body": "<p>Software <b>CTI</b> designed to automate the work of a <b>Contact-Center</b></p><i class='text-xs'>Communication through the most demanded channels</i> "
-                },
-                "2": {
-                    "nombre": "Sorarers",
-                    "titulo": "Personal project under development",
-                    "body": "<p>App with <b>news, forum and more</b> about Sorare (Collectible NFT Soccer Game).</p><p><i class='text-xs'> Personal project also developed with Mysql and Express</i></p>"
-                },
-                "3": {
-                    "nombre": "VoIP",
-                    "titulo": "IP Operator",
-                    "body": "<p>Management portal for Promo-soft <b>IP telephony</b> clients.</p><p><i class='text-xs'>Generation and download of invoices , call histories, sending faxes and more.</i>"
-                },
-                "4": {
-                    "nombre": "Contact Page",
-                    "titulo": "Web Promo-soft",
-                    "body": "<p>Contact with the client from the web through <b>chat, whatsapp, video call</b></p><p><i class='text-xs'>The interaction between the client and the agent is possible thanks to GUC</i><p>"
-                },
-                "5": {
-                    "nombre": "Products", 
-                    "titulo": "Promo-soft shop",
-                    "body": "<p>Online store with <b>payment gateway</b> and <b>management of orders</b></p><p><i class='text-xs'>The client can buy the products and services offered by Promo-soft</i></p>"
-                }
-            }
+        "6": {
+          "nombre": "Flow Routing",
+          "titulo": "Guc PBX",
+          "body": "<p><b>CTI</b> management software for your switchboard, including a diagram builder that allows you to design the routing of an incoming call.</p><p><i class ='text-xs'>Queue management, extensions, calendars, voiceovers, etc.</i>"
         }
+      }
     }
+  }
 }

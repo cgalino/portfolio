@@ -1,74 +1,76 @@
 const data = [
-    {
-        key: 1,
-        name: 'GUC',
-        title: 'Gestión unificada de contactos',
-        web: 'https://www.promo-soft.eu/products/gucweb.html',
-        body: '<p>Software <b>CTI</b> diseñado para la automatización del trabajo de un <b>Contact-Center</b></p><i class="text-xs">Comunicación a través de los canales más demandados</i> ',
-        techs: [2, 3],
-        link: 'https://www.promo-soft.eu/products/gucweb.html',
-        images: [
-            'img/projects/GUC/1.jpg',
-            'img/projects/GUC/2.jpg',
-            'img/projects/GUC/3.jpg',
-            'img/projects/GUC/4.jpg',
-            'img/projects/GUC/5.jpg',
-            'img/projects/GUC/6.jpg',
-            'img/projects/GUC/7.jpg',
-        ]
-    },
-    {
-        key: 2,
-        name: 'Sorarers',
-        link: 'https://www.sorarers.com',
-        title: 'Proyecto personal en desarrollo',
-        body: '<p>App con <b>noticias, foro y más</b> sobre Sorare (Juego de coleccionables de futbol NFT).</p><p><i class="text-xs">Proyecto personal desarrollado además con Mysql y Express</i></p>',
-        techs: [1, 5, 7],
-        images: [
-            'img/projects/SORARERS/1.png',
-            'img/projects/SORARERS/2.png',
-            'img/projects/SORARERS/3.png',
-        ]
-    },
-    {
-        key: 3,
-        name: 'VoIP',
-        title: 'Operador IP',
-        body: '<p>Portal de gestión para clientes de <b>telefonía IP</b> de Promo-soft.</p><p><i class="text-xs">Generación y descarga de facturas, historicos de llamadas, envio de faxes y más.</i>',
-        techs: [2, 4, 6],
-        link: 'https://www.promo-soft.eu/services/voip.html',
-        images: [
-            'img/projects/VOIP/1.png',
-            'img/projects/VOIP/2.png'
-        ]
-    },
-    {
-        key: 4,
-        name: 'Página de contacto',
-        link: 'https://www.promo-soft.eu/contacto.html',
-        title: 'Web Promo-soft',
-        body: '<p>Contacto con el cliente desde la web a través de <b>chat, whatsapp, videollamada</b></p><p><i class="text-xs">La interacción entre el cliente y el agente es posible gracias a GUC</i><p>',
-        techs: [2, 3],
-        images: [
-            'img/projects/WEBPROMO/1.png',
-            'img/projects/WEBPROMO/2.png'
-        ]
-    },
-    {
-        key: 5,
-        name: 'Products Promo-soft',
-        link: 'https://products.promo-soft.eu',
-        title: 'Tienda Promo-soft',
-        body: '<p>Portal de gestión para clientes de <b>Promo-soft</b>.</p><p><i class="text-xs">Gestión de suscripciones a productos.</i>',
-        techs: [1, 5, 6],
-        images: [
-            'img/projects/PRODUCTS/1.png',
-            'img/projects/PRODUCTS/2.png',
-            'img/projects/PRODUCTS/3.png',
-            'img/projects/PRODUCTS/4.png'
-        ]
-    }
+  {
+    key: 1,
+    name: "GUC",
+    title: "Gestión unificada de contactos",
+    web: "https://www.promo-soft.eu/products/gucweb.html",
+    body: '<p>Software <b>CTI</b> diseñado para la automatización del trabajo de un <b>Contact-Center</b></p><i class="text-xs">Comunicación a través de los canales más demandados</i> ',
+    techs: [2, 3],
+    link: "https://www.promo-soft.eu/products/gucweb.html",
+    images: [
+      "img/projects/GUC/1.jpg",
+      "img/projects/GUC/2.jpg",
+      "img/projects/GUC/3.jpg",
+      "img/projects/GUC/4.jpg",
+      "img/projects/GUC/5.jpg",
+      "img/projects/GUC/6.jpg",
+      "img/projects/GUC/7.jpg",
+    ],
+  },
+  {
+    key: 2,
+    name: "Sorarers",
+    link: "https://www.sorarers.com",
+    title: "Proyecto personal en desarrollo",
+    body: '<p>App con <b>noticias, foro y más</b> sobre Sorare (Juego de coleccionables de futbol NFT).</p><p><i class="text-xs">Proyecto personal desarrollado además con Mysql y Express</i></p>',
+    techs: [1, 5, 7],
+    images: [
+      "img/projects/SORARERS/1.png",
+      "img/projects/SORARERS/2.png",
+      "img/projects/SORARERS/3.png",
+    ],
+  },
+  {
+    key: 3,
+    name: "VoIP",
+    title: "Operador IP",
+    body: '<p>Portal de gestión para clientes de <b>telefonía IP</b> de Promo-soft.</p><p><i class="text-xs">Generación y descarga de facturas, historicos de llamadas, envio de faxes y más.</i>',
+    techs: [2, 4, 6],
+    link: "https://www.promo-soft.eu/services/voip.html",
+    images: ["img/projects/VOIP/1.png", "img/projects/VOIP/2.png"],
+  },
+  {
+    key: 4,
+    name: "Página de contacto",
+    link: "https://www.promo-soft.eu/contacto.html",
+    title: "Web Promo-soft",
+    body: '<p>Contacto con el cliente desde la web a través de <b>chat, whatsapp, videollamada</b></p><p><i class="text-xs">La interacción entre el cliente y el agente es posible gracias a GUC</i><p>',
+    techs: [2, 3],
+    images: ["img/projects/WEBPROMO/1.png", "img/projects/WEBPROMO/2.png"],
+  },
+  {
+    key: 5,
+    name: "Products Promo-soft",
+    link: "https://products.promo-soft.eu",
+    title: "Tienda Promo-soft",
+    body: '<p>Portal de gestión para clientes de <b>Promo-soft</b>.</p><p><i class="text-xs">Gestión de suscripciones a productos.</i>',
+    techs: [1, 5, 6],
+    images: [
+      "img/projects/PRODUCTS/1.png",
+      "img/projects/PRODUCTS/2.png",
+      "img/projects/PRODUCTS/3.png",
+      "img/projects/PRODUCTS/4.png",
+    ],
+  },
+  {
+    key: 6,
+    name: "Flow Routing",
+    link: "https://www.promo-soft.eu/products/gucweb.html",
+    title: "Guc PBX",
+    body: '<p>Software <b>CTI</b> de gestión para tu centralita, incluyendo un diagrama que permite diseñar el enrutamiento de una llamada entrante en una cola de llamadas.</p><p><i class="text-xs">Gestión de colas, extensiones, calendarios, locuciones, etc.</i>',
+    techs: [9, 1, 5, 8],
+    images: ["img/projects/ROUTING/1.png", "img/projects/ROUTING/2.png"],
+  },
 ];
-
 
 export default data;
